@@ -19,7 +19,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
-              Está na hora de você ter uma <br /> loja de alta conversão.
+              Está na hora de você ter uma loja de alta conversão.
             </motion.h2>
 
             <motion.p
