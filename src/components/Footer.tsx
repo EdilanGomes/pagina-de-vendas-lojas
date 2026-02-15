@@ -47,7 +47,7 @@ export default function Footer() {
                 <p className="py-4 text-center text-sm text-gray-400">
                     © {new Date().getFullYear()} {' '}
                     <a href="https://www.agenciaestrutura.com.br/" target='_blank'>
-                        Estrutura E-commerce & Tecnologias Digitais LTDA
+                        Estrutura E-commerce & Tecnologias Digitais
                     </a> {' '} <br />
                     <a href="https://www.agenciaestrutura.com.br/" target='_blank'>
                         57.688.130/0001-86 ThemeWagon
