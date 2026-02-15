@@ -11,7 +11,7 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="O que sua marca precisa para crescer."
+                    heading="O que sua marca precisa."
                     description="Da estratégia à execução, ajudamos empresas a construir produtos digitais robustos e experiências significativas para o cliente."
                 />
 
