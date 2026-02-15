@@ -68,7 +68,7 @@ export default function Hero() {
                             >
                                 E-commerce para <br />
                                 <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
-                                    escalar as suas vendas no digital hoje mesmo
+                                    escalar as suas vendas no digital
                                 </span>
                             </motion.h1>
 
