@@ -78,7 +78,7 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                             >
-                                • Prática para quem começa • Completa para quem escala <br /> • Acompanhamos o tamanho do seu sonho • passo por passo.
+                                • Prática para quem começa • Completa para quem escala • Acompanhamos o tamanho do seu sonho • passo por passo.
                             </motion.p>
 
                             <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
