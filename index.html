@@ -58,7 +58,7 @@
 </script>
 <!-- End Safe WhatsApp Floating Button -->
 
-<!-- Premium Floating Video Bubble -->
+<!-- Floating Video Bubble Standby -->
 <div id="__video_bubble_wrap">
   <div id="__video_circle">
     <video id="__video_preview" autoplay muted loop playsinline></video>
@@ -70,7 +70,8 @@
       <button id="__video_close">✕</button>
       <div style="position:relative;padding-top:182%; max-width:360px; margin:auto;">
         <iframe
-          src="https://www.youtube.com/embed/KVhjkbspgEo?autoplay=1"
+          id="__video_iframe"
+          src=""
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
@@ -86,7 +87,6 @@
 (function(){
   const style = document.createElement("style");
   style.innerHTML = `
-    /* Bolinha circular */
     #__video_circle {
       position: fixed;
       left: 28px;
@@ -104,24 +104,18 @@
       background: black;
       animation: pulseGlow 2s infinite alternate;
     }
-
     @keyframes pulseGlow {
       0% { box-shadow: 0 0 10px rgba(0,150,255,0.6); }
       100% { box-shadow: 0 0 25px rgba(0,150,255,0.9); }
     }
-
     #__video_circle:hover { transform: scale(1.15); }
-
     #__video_preview {
       width: 100%;
       height: 100%;
       object-fit: cover;
       pointer-events: none;
     }
-
     #__video_overlay { position:absolute; inset:0; z-index:2; }
-
-    /* Modal */
     #__video_modal {
       position: fixed;
       inset: 0;
@@ -157,8 +151,6 @@
       z-index: 2;
     }
     @keyframes __vidPop { from { transform: scale(.9); opacity:0 } to { transform: scale(1); opacity:1 } }
-
-    /* Tooltip */
     #__video_circle::after {
       content: "Clique para assistir";
       position: absolute;
@@ -176,7 +168,6 @@
       transition: opacity .25s;
     }
     #__video_circle:hover::after { opacity: 1; }
-
     @media(max-width:640px){
       #__video_circle{ left:18px; bottom:90px; width:80px; height:80px; }
       #__video_modal_content{ max-width:340px; }
@@ -185,22 +176,32 @@
   document.head.appendChild(style);
 
   const preview = document.getElementById("__video_preview");
-  preview.src = "/video.mp4"; // <--- Seu vídeo no public
+  // Mini-loop mudo em standby
+  preview.src = "/video.mp4"; 
   preview.autoplay = true;
   preview.loop = true;
-  preview.muted = true; // precisa ser muted para autoplay funcionar
+  preview.muted = true;
   preview.playsInline = true;
 
   const modal = document.getElementById("__video_modal");
   const close = document.getElementById("__video_close");
   const overlay = document.getElementById("__video_overlay");
+  const iframe = document.getElementById("__video_iframe");
 
-  overlay.onclick = () => modal.style.display="flex";
-  close.onclick = () => modal.style.display="none";
-  modal.onclick = e => { if(e.target===modal) modal.style.display="none"; }
+  // Clicar na bolinha
+  overlay.onclick = () => {
+    modal.style.display="flex";
+    // Define o src do iframe no clique para iniciar autoplay com som
+    iframe.src = "https://www.youtube.com/embed/KVhjkbspgEo?autoplay=1";
+  };
+
+  close.onclick = () => {
+    modal.style.display="none";
+    iframe.src = ""; // limpa src para parar o vídeo
+  };
+  modal.onclick = e => { if(e.target===modal) { modal.style.display="none"; iframe.src=""; } }
 })();
 </script>
-<!-- End Premium Floating Video Bubble -->
 
 
 </body>
