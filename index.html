@@ -12,70 +12,51 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
 
-    <!-- WhatsApp Floating Button -->
+    <!-- Safe WhatsApp Floating Button -->
 <a
   href="https://wa.me/554796648695?text=Ol%C3%A1!%20Sou%20lojista%20e%20quero%20criar%20uma%20loja%20de%20alta%20convers%C3%A3o.%20Quero%20saber%20como%20funciona."
   target="_blank"
   rel="noopener noreferrer"
-  class="whatsapp-float"
-  aria-label="Falar no WhatsApp"
+  id="__zap_float_widget_83921"
+  aria-label="WhatsApp"
 >
-  <svg viewBox="0 0 32 32" class="whatsapp-icon">
-    <path fill="currentColor"
-      d="M19.11 17.07c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.21-.6.07-.28-.14-1.17-.43-2.23-1.37-.82-.73-1.38-1.63-1.54-1.9-.16-.28-.02-.43.12-.57.12-.12.28-.32.43-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.54-.45-.47-.61-.48-.16-.01-.35-.01-.54-.01-.18 0-.46.07-.7.35-.25.28-.95.93-.95 2.27s.98 2.64 1.12 2.82c.14.18 1.93 2.95 4.68 4.13.66.28 1.17.45 1.57.57.66.21 1.26.18 1.73.11.53-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32zM16 3.07c-7.12 0-12.93 5.81-12.93 12.93 0 2.28.6 4.42 1.65 6.29L3 29l6.89-1.81c1.8.98 3.86 1.55 6.11 1.55 7.12 0 12.93-5.81 12.93-12.93S23.12 3.07 16 3.07zm0 23.46c-2.05 0-3.96-.61-5.56-1.66l-.4-.25-4.09 1.07 1.09-3.99-.26-.41c-1.08-1.62-1.66-3.52-1.66-5.55 0-5.56 4.52-10.08 10.08-10.08s10.08 4.52 10.08 10.08-4.52 10.08-10.08 10.08z" />
-  </svg>
+  <span id="__zap_float_icon_83921"></span>
 </a>
 
-<style>
-  .whatsapp-float {
-    position: fixed;
-    width: 58px;
-    height: 58px;
-    bottom: 24px;
-    right: 24px;
-    background-color: #25D366;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-    z-index: 9999;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: pulse 2s infinite;
-  }
-
-  .whatsapp-float:hover {
-    transform: scale(1.08);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
-  }
-
-  .whatsapp-icon {
-    width: 28px;
-    height: 28px;
-  }
-
-  @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
-    70% { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-  }
-
-  @media (max-width: 640px) {
-    .whatsapp-float {
-      width: 52px;
-      height: 52px;
-      bottom: 18px;
-      right: 18px;
+<script>
+(function() {
+  const style = document.createElement("style");
+  style.innerHTML = `
+    #__zap_float_widget_83921 {
+      position: fixed;
+      width: 56px;
+      height: 56px;
+      bottom: 22px;
+      right: 22px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2147483647;
+      box-shadow: 0 8px 24px rgba(0,0,0,.25);
+      text-decoration: none;
+      transition: transform .25s ease;
     }
-
-    .whatsapp-icon {
-      width: 24px;
-      height: 24px;
+    #__zap_float_widget_83921:hover {
+      transform: scale(1.08);
     }
-  }
-</style>
-<!-- End WhatsApp Floating Button -->
+    #__zap_float_icon_83921 {
+      width: 26px;
+      height: 26px;
+      display: block;
+      background: url("data:image/svg+xml,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M19.11 17.07c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.21-.6.07-.28-.14-1.17-.43-2.23-1.37-.82-.73-1.38-1.63-1.54-1.9-.16-.28-.02-.43.12-.57.12-.12.28-.32.43-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.54-.45-.47-.61-.48-.16-.01-.35-.01-.54-.01-.18 0-.46.07-.7.35-.25.28-.95.93-.95 2.27s.98 2.64 1.12 2.82c.14.18 1.93 2.95 4.68 4.13.66.28 1.17.45 1.57.57.66.21 1.26.18 1.73.11.53-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32zM16 3.07c-7.12 0-12.93 5.81-12.93 12.93 0 2.28.6 4.42 1.65 6.29L3 29l6.89-1.81c1.8.98 3.86 1.55 6.11 1.55 7.12 0 12.93-5.81 12.93-12.93S23.12 3.07 16 3.07zm0 23.46c-2.05 0-3.96-.61-5.56-1.66l-.4-.25-4.09 1.07 1.09-3.99-.26-.41c-1.08-1.62-1.66-3.52-1.66-5.55 0-5.56 4.52-10.08 10.08-10.08s10.08 4.52 10.08 10.08-4.52 10.08-10.08 10.08z'/%3E%3C/svg%3E") center/contain no-repeat;
+    }
+  `;
+  document.head.appendChild(style);
+})();
+</script>
+<!-- End Safe WhatsApp Floating Button -->
 
 </body>
 
