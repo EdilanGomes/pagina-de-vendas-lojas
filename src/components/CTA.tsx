@@ -36,7 +36,7 @@ export default function CTA() {
               }}
             >
               Oferecemos uma solução completa que transforma sua visão em realidade,
-              com designs atraentes e estratégias que impulsionam suas vendas.
+              com designs atraentes e estratégias que impulsionam.
             </motion.p>
 
             <motion.div
