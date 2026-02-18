@@ -19,16 +19,16 @@ export default function Hero() {
     ];
 
     const trustedLogosText = [
-  'Moda & Vestuário',
-  'Beleza, Cosméticos e Perfumaria',
-  'Casa & Decoração',
-  'Saúde, Suplementos & Bem-estar',
-  'Pet Shop',
-  'Eletrônicos & Acessórios Tech',
-  'Alimentos & Bebidas',
-  'Esporte & Fitness',
-  'Infantil & Bebê',
-  '+Outros segmentos'
+  'Sua operação já existe?',
+  'Agora ela pode evoluir!',
+  'Você já tem cliente?',
+  'Falta ter um canal seu!',
+  'Vender você já sabe,',
+  'Estruturar é o próximo passo!',
+  'Sua marca não precisa caber só em um lugar,',
+  'Quem já validou o produto, pensa em continuidade!',
+  'Menos improviso,',
+  'Mais processos!'
 ];
 
     return (
