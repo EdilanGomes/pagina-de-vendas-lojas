@@ -27,7 +27,7 @@
 
 .animate-marquee {
     display: inline-flex;
-    animation: marquee 16s linear infinite;
+    animation: marquee 28s linear infinite;
 }
 
 @keyframes float {
