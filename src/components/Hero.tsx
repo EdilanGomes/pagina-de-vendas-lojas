@@ -19,16 +19,17 @@ export default function Hero() {
     ];
 
     const trustedLogosText = [
-  'Você já vende.',
-  'Mas ainda vende só por onde deixam?',
-  'Seu negócio é seu.',
-  'O canal de venda também deveria ser.',
-  'Cliente você já conquistou.',
-  'Agora precisa parar de depender.',
-  'Marketplace é passagem.',
-  'Marca forte cria caminho próprio.',
-  'Você não está começando.',
-  'Só está pronto para o próximo passo.'
+  'Integrado ao Bling / Tiny ERP.',
+  'Operação conectada do pedido ao faturamento.',
+  'Branding estratégico desde o início.',
+  'Loja pensada para posicionar, não só vender.',
+  'Estrutura com foco em Marketing e Growth.',
+  'Projeto construído para aquisição e recorrência.',
+  'Sua loja pronta em menos de 20 dias.',
+  'Implementação completa, sem improviso.',
+  'Treinamentos práticos para sua equipe operar.',
+  'Consultoria para acompanhar a evolução.',
+  'Parceiros oficiais da Nuvemshop.'
 ];
 
 
