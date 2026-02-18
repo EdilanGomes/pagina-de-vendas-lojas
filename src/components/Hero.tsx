@@ -19,17 +19,18 @@ export default function Hero() {
     ];
 
     const trustedLogosText = [
-  'Sua operação já existe?',
-  'Agora ela pode evoluir!',
-  'Você já tem cliente?',
-  'Falta ter um canal seu!',
-  'Vender você já sabe,',
-  'Estruturar é o próximo passo!',
-  'Sua marca não precisa caber só em um lugar,',
-  'Quem já validou o produto, pensa em continuidade!',
-  'Menos improviso,',
-  'Mais processos!'
+  'Você já vende.',
+  'Mas ainda vende só por onde deixam?',
+  'Seu negócio é seu.',
+  'O canal de venda também deveria ser.',
+  'Cliente você já conquistou.',
+  'Agora precisa parar de depender.',
+  'Marketplace é passagem.',
+  'Marca forte cria caminho próprio.',
+  'Você não está começando.',
+  'Só está pronto para o próximo passo.'
 ];
+
 
     return (
         <>
