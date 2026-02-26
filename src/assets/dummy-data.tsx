@@ -28,8 +28,9 @@ export const plansData = [
         features: [
             'Planejamento do projeto',
             'UI/UX design',
-            'Cadastro de produtos',
-            'Integrações gerais',
+            'Cadastro inicial de produtos',
+            'Gateway de Pagamento',
+            'Gateway de Frete',
             'Suporte & Treinamento'
         ]
     },
