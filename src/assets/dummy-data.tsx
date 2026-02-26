@@ -21,7 +21,7 @@ export const featuresData = [
 export const plansData = [
     {
         id: 'starter',
-        name: 'Starter',
+        name: 'Crescimento',
         price: 'R$399',
         desc: 'Ideal para começar do zero absoluto',
         credits: 'Valor único',
@@ -36,7 +36,7 @@ export const plansData = [
     },
     {
         id: 'pro',
-        name: 'Growth',
+        name: 'Expansão',
         price: 'R$699',
         desc: 'Para lojistas que já querem dar um Boost',
         credits: 'Valor único',
@@ -51,7 +51,7 @@ export const plansData = [
     },
     {
         id: 'ultra',
-        name: 'Enterprise',
+        name: 'Avançado',
         price: 'Sob consulta',
         desc: 'Para marcas prontas para escalar',
         credits: 'Comercial',
