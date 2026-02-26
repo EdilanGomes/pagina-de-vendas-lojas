@@ -27,7 +27,7 @@ export const plansData = [
         credits: 'Valor único',
         features: [
             'Planejamento do projeto',
-            'UI/UX design',
+            'UI/UX Banners',
             'Cadastro inicial de produtos',
             'Gateway de Pagamento',
             'Gateway de Frete',
