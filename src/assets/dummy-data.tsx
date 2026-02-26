@@ -22,7 +22,7 @@ export const plansData = [
     {
         id: 'starter',
         name: 'Starter',
-        price: 'R$699',
+        price: 'R$399',
         desc: 'Ideal para lojas em estágio inicial',
         credits: 'Valor único',
         features: [
@@ -36,7 +36,7 @@ export const plansData = [
     {
         id: 'pro',
         name: 'Growth',
-        price: 'R$1,490',
+        price: 'R$699',
         desc: 'Lojas e comércios em crescimento',
         credits: 'Valor único',
         features: [
