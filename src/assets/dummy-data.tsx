@@ -23,7 +23,7 @@ export const plansData = [
         id: 'starter',
         name: 'Starter',
         price: 'R$399',
-        desc: 'Ideal para lojas em estágio inicial',
+        desc: 'Ideal para começar do zero absoluto',
         credits: 'Valor único',
         features: [
             'Planejamento do projeto',
@@ -38,7 +38,7 @@ export const plansData = [
         id: 'pro',
         name: 'Growth',
         price: 'R$699',
-        desc: 'Lojas e comércios em crescimento',
+        desc: 'Para lojistas que já querem dar um Boost',
         credits: 'Valor único',
         features: [
             'Tudo no pacote Starter',
