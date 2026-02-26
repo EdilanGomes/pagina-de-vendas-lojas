@@ -89,7 +89,7 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.3 }}
                             >
-                                <a href="https://wa.me/554796648695?text=Ol%C3%A1!%20Sou%20lojista%20e%20quero%20criar%20uma%20loja%20de%20alta%20convers%C3%A3o.%20Quero%20saber%20como%20funciona." className="w-full sm:w-auto">
+                                <a href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." className="w-full sm:w-auto">
                                     <PrimaryButton className="max-sm:w-full py-3 px-7">
                                         Agendar demonstração
                                         <ArrowRightIcon className="size-4" />
