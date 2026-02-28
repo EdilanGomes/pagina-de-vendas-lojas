@@ -96,16 +96,17 @@ export default function Hero() {
                                     </PrimaryButton>
                                 </a>
 
-                                <GhostButton
-                                as="a"
+                                <a
                                 href="https://www.youtube.com/shorts/KVhjkbspgEo?feature=share"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="max-sm:w-full max-sm:justify-center py-3 px-5"
+                                className="w-full sm:w-auto"
                                 >
-                                <PlayIcon className="size-4" />
-                                Ver nosso trabalho
+                                <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
+                                    <PlayIcon className="size-4" />
+                                    Ver nosso trabalho
                                 </GhostButton>
+                                </a>
                             </motion.div>
 
                             <motion.div className="flex sm:inline-flex overflow-hidden items-center max-sm:justify-center text-sm text-gray-200 bg-white/10 rounded"
