@@ -96,9 +96,15 @@ export default function Hero() {
                                     </PrimaryButton>
                                 </a>
 
-                                <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
-                                    <PlayIcon className="size-4" />
-                                    Ver nosso trabalho
+                                <GhostButton
+                                as="a"
+                                href="https://www.youtube.com/shorts/KVhjkbspgEo?feature=share"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="max-sm:w-full max-sm:justify-center py-3 px-5"
+                                >
+                                <PlayIcon className="size-4" />
+                                Ver nosso trabalho
                                 </GhostButton>
                             </motion.div>
 
