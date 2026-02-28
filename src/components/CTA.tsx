@@ -19,7 +19,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
-              Está na hora de você ter uma loja de alta conversão.
+              Gostou, mas ainda não tem produtos para vender?
             </motion.h2>
 
             <motion.p
@@ -35,8 +35,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Oferecemos uma solução completa que transforma sua visão em realidade,
-              com designs atraentes e estratégias que impulsionam.
+              Oferecemos a implementação de dropshipping, onde você vende sem estoque: o fornecedor envia o produto direto ao seu cliente. Nos pacotes acima, toda a estrutura já está inclusa para você começar a vender com facilidade e profissionalismo.
             </motion.p>
 
             <motion.div
