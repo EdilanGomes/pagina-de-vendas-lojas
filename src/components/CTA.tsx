@@ -1,9 +1,11 @@
-import { ArrowRightIcon } from "lucide-react";
-import { GhostButton } from "./Buttons";
-import { motion } from "framer-motion";
+import { ArrowRightIcon } from 'lucide-react';
+import { GhostButton } from './Buttons';
+import { motion } from 'framer-motion';
+
 
 const WHATSAPP_LINK =
   "https://wa.me/5547920014973?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.";
+
 
 export default function CTA() {
   return (
@@ -22,6 +24,7 @@ export default function CTA() {
               Não tem produtos? Sem problema.
             </motion.h2>
 
+
             <motion.p
               className="max-sm:text-sm text-slate-400 mb-10 max-w-xl mx-auto"
               initial={{ y: 60, opacity: 0 }}
@@ -35,10 +38,9 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Comece agora com dropshipping: você vende sem estoque e sem
-              complicação. O fornecedor envia o produto direto ao seu cliente,
-              enquanto você apenas divulga.
+              Comece agora com dropshipping: você vende sem estoque e sem complicação. O fornecedor envia o produto direto ao seu cliente, enquanto você apenas divulga.
             </motion.p>
+
 
             <motion.div
               initial={{ y: 60, opacity: 0 }}
@@ -52,14 +54,16 @@ export default function CTA() {
                 delay: 0.3,
               }}
             >
-              <GhostButton
+              <a
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 gap-2"
+                className="inline-block"
               >
-                Vender sem estoque <ArrowRightIcon size={20} />
-              </GhostButton>
+                <GhostButton className="px-8 py-3 gap-2">
+                  Vender sem estoque <ArrowRightIcon size={20} />
+                </GhostButton>
+              </a>
             </motion.div>
           </div>
         </div>
