@@ -50,16 +50,12 @@ export default function CTA() {
                 delay: 0.3,
               }}
             >
-              <a
-                href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Quero%20falar%20de%20Dropshipping"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block"
+              <GhostButton
+                className="px-8 py-3 gap-2"
+                onClick={() => window.open(WHATSAPP_LINK, "_blank")}
               >
-                <GhostButton className="px-8 py-3 gap-2">
-                  Vender sem estoque <ArrowRightIcon size={20} />
-                </GhostButton>
-              </a>
+                Vender sem estoque <ArrowRightIcon size={20} />
+              </GhostButton>
             </motion.div>
           </div>
         </div>
