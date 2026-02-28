@@ -35,7 +35,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Comece agora com dropshipping: você vende sem estoque e sem complicação. O fornecedor envia o produto direto ao seu cliente, enquanto você foca apenas em divulgar e vender.
+              Comece agora com dropshipping: você vende sem estoque e sem complicação. O fornecedor envia o produto direto ao seu cliente, enquanto você apenas divulga.
             </motion.p>
 
             <motion.div
