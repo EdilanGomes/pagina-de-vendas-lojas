@@ -51,7 +51,7 @@ export default function CTA() {
               }}
             >
               <a
-                href={WHATSAPP_LINK}
+                href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Quero%20falar%20de%20Dropshipping"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
