@@ -57,7 +57,7 @@ export default function CTA() {
                 className="inline-block"
               >
                 <GhostButton className="px-8 py-3 gap-2">
-                  Iniciar meu projeto <ArrowRightIcon size={20} />
+                  Vender sem estoque <ArrowRightIcon size={20} />
                 </GhostButton>
               </a>
             </motion.div>
