@@ -1,6 +1,6 @@
-import { ArrowRightIcon } from 'lucide-react';
-import { GhostButton } from './Buttons';
-import { motion } from 'framer-motion';
+import { ArrowRightIcon } from "lucide-react";
+import { GhostButton } from "./Buttons";
+import { motion } from "framer-motion";
 
 const WHATSAPP_LINK =
   "https://wa.me/5547920014973?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.";
@@ -35,7 +35,9 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Comece agora com dropshipping: você vende sem estoque e sem complicação. O fornecedor envia o produto direto ao seu cliente, enquanto você apenas divulga.
+              Comece agora com dropshipping: você vende sem estoque e sem
+              complicação. O fornecedor envia o produto direto ao seu cliente,
+              enquanto você apenas divulga.
             </motion.p>
 
             <motion.div
@@ -51,8 +53,10 @@ export default function CTA() {
               }}
             >
               <GhostButton
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 gap-2"
-                onClick={() => window.open(WHATSAPP_LINK, "_blank")}
               >
                 Vender sem estoque <ArrowRightIcon size={20} />
               </GhostButton>
