@@ -19,7 +19,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
-              Gostou, mas ainda não tem produtos para vender?
+              Não tem produtos? Sem problema.
             </motion.h2>
 
             <motion.p
@@ -35,7 +35,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Oferecemos a implementação de dropshipping, onde você vende sem estoque: o fornecedor envia o produto direto ao seu cliente. Nos pacotes acima, toda a estrutura já está inclusa para você começar a vender com facilidade e profissionalismo.
+              Comece agora com dropshipping: você vende sem estoque e sem complicação. O fornecedor envia o produto direto ao seu cliente, enquanto você foca apenas em divulgar e vender.
             </motion.p>
 
             <motion.div
