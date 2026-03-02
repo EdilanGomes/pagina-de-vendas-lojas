@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 const WHATSAPP_LINK =
-  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.";
+  "https://wa.me/554796648695?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.";
 
 export default function Pricing() {
   const refs = useRef<(HTMLDivElement | null)[]>([]);
