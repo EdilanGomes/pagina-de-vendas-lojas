@@ -28,10 +28,11 @@ export const plansData = [
         features: [
             'Estratégia inicial da loja',
             'Design profissional da loja',
-            'Produtos cadastrados na loja',
-            'Pagamentos online ativados',
+            'Cadastro inicial de produtos',
+            'Pagamentos online configurados',
             'Cálculo automático de frete',
-            'Suporte e treinamento completo'
+            'Domínio e segurança SSL',
+            'Treinamento para usar a loja'
         ]
     },
     {
