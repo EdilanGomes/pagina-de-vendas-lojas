@@ -26,12 +26,12 @@ export const plansData = [
         desc: 'Ideal para começar do zero absoluto',
         credits: 'Valor único',
         features: [
-            'Planejamento do projeto',
-            'UI/UX Banners',
-            'Cadastro inicial de produtos',
-            'Gateway de Pagamento',
-            'Gateway de Frete',
-            'Suporte & Treinamento'
+            'Estratégia inicial da loja',
+            'Design profissional da loja',
+            'Produtos cadastrados na loja',
+            'Pagamentos online ativados',
+            'Cálculo automático de frete',
+            'Suporte e treinamento completo'
         ]
     },
     {
