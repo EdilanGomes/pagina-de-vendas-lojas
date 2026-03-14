@@ -59,11 +59,13 @@ export const plansData = [
         desc: 'Para marcas prontas para escalar',
         credits: 'Comercial',
         features: [
-            'Tudo no pacote Growth',
+            'Tudo do plano Expansão',
             'Gerente de projeto dedicado',
-            'Otimização contínua',
-            'Apoio em marketing e conteúdo',
-            'Tráfego Pago: Meta Ads'
+            'Otimização contínua da loja',
+            'Estratégia completa de marketing',
+            'Apoio em conteúdo e campanhas',
+            'Gestão de tráfego pago (Meta Ads)',
+            'Relatórios e acompanhamento'
         ]
     }
 ];
