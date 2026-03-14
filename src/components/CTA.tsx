@@ -21,7 +21,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
-              Não tem produtos? Sem problema.
+              Vamos conversar sobre seu projeto?
             </motion.h2>
 
 
@@ -38,7 +38,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Comece agora com dropshipping: você vende sem estoque e sem complicação. O fornecedor envia o produto direto ao seu cliente, enquanto você apenas divulga.
+              Agende um bate-papo gratuito com um especialista e descubra como estruturar sua loja virtual e começar a vender online.
             </motion.p>
 
 
@@ -61,7 +61,7 @@ export default function CTA() {
                 className="inline-block"
               >
                 <GhostButton className="px-8 py-3 gap-2">
-                  Vender sem estoque <ArrowRightIcon size={20} />
+                  Agendar consulta gratuita <ArrowRightIcon size={20} />
                 </GhostButton>
               </a>
             </motion.div>
