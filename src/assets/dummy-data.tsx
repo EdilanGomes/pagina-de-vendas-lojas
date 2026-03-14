@@ -41,11 +41,11 @@ export const plansData = [
         desc: 'Para lojistas que já querem dar um Boost',
         credits: 'Valor único',
         features: [
-            'Tudo no pacote Starter',
-            'SEO avançado',
-            'Produtos no check-out',
-            'Cupom flutuante',
-            'Consultoria de MKT'
+            'Tudo do plano Crescimento',
+            'SEO para aparecer no Google',
+            'Venda extra no checkout',
+            'Cupom de desconto automático',
+            'Consultoria estratégica'
         ],
         popular: true
     },
