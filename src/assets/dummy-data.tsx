@@ -43,10 +43,12 @@ export const plansData = [
         credits: 'Valor único',
         features: [
             'Tudo do plano Crescimento',
-            'SEO para aparecer no Google',
-            'Venda extra no checkout',
-            'Cupom de desconto automático',
-            'Consultoria estratégica'
+            'SEO otimizado para Google',
+            'Estratégia de conversão da loja',
+            'Produtos sugeridos no checkout',
+            'Cupom automático de desconto',
+            'Integração com ferramentas de marketing',
+            'Consultoria estratégica de vendas',
         ],
         popular: true
     },
