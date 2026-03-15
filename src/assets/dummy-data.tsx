@@ -3,18 +3,18 @@ import { UploadIcon, VideoIcon, ZapIcon } from 'lucide-react';
 export const featuresData = [
     {
         icon: <UploadIcon className="w-6 h-6" />,
-        title: 'Implementação completa',
-        desc: 'Vamos construir juntos um e-commerce que vai surpreender seus clientes e gerar resultados.'
+        title: 'Sua loja começa do jeito certo',
+        desc: 'Arquitetura, páginas, categorias e experiência pensadas para transformar visitantes em clientes.'
     },
     {
         icon: <ZapIcon className="w-6 h-6" />,
-        title: 'Integrações gerais',
-        desc: 'Sua loja com as melhores integrações em relação a envio, pagamento, segurança e marketing.'
+        title: 'Tudo integrado para vender sem dor de cabeça',
+        desc: 'Pagamentos, envios, automações e ferramentas conectadas para sua loja rodar sem problemas.'
     },
     {
         icon: <VideoIcon className="w-6 h-6" />,
-        title: 'Treinamento & suporte',
-        desc: 'Você não fica para trás, te ajudamos em todos os processos de aprendizado e dúvidas.'
+        title: 'Aprenda a usar sua loja de verdade',
+        desc: 'Ensinamos você e sua equipe de forma prática para usar a loja com segurança desde o primeiro dia.'
     }
 ];
 
