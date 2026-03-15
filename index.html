@@ -106,7 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   style.innerHTML = `
     #__video_circle {
       position: fixed;
-      left: 28px;
+      right: 28px;
       bottom: 36px;
       width: 120px;
       height: 120px;
@@ -121,18 +121,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       background: black;
       animation: pulseGlow 2s infinite alternate;
     }
+
     @keyframes pulseGlow {
       0% { box-shadow: 0 0 10px rgba(0,150,255,0.6); }
       100% { box-shadow: 0 0 25px rgba(0,150,255,0.9); }
     }
+
     #__video_circle:hover { transform: scale(1.15); }
+
     #__video_preview {
       width: 100%;
       height: 100%;
       object-fit: cover;
       pointer-events: none;
     }
-    #__video_overlay { position:absolute; inset:0; z-index:2; }
+
+    #__video_overlay { 
+      position:absolute; 
+      inset:0; 
+      z-index:2; 
+    }
+
     #__video_modal {
       position: fixed;
       inset: 0;
@@ -144,6 +153,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       z-index:2147483647;
       padding:16px;
     }
+
     #__video_modal_content {
       position: relative;
       width: 100%;
@@ -153,6 +163,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       background:black;
       animation: __vidPop .35s ease;
     }
+
     #__video_close {
       position: absolute;
       top: 10px;
@@ -167,7 +178,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       font-size: 16px;
       z-index: 2;
     }
-    @keyframes __vidPop { from { transform: scale(.9); opacity:0 } to { transform: scale(1); opacity:1 } }
+
+    @keyframes __vidPop { 
+      from { transform: scale(.9); opacity:0 } 
+      to { transform: scale(1); opacity:1 } 
+    }
+
     #__video_circle::after {
       content: "Clique para assistir";
       position: absolute;
@@ -184,17 +200,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       pointer-events: none;
       transition: opacity .25s;
     }
+
     #__video_circle:hover::after { opacity: 1; }
+
     @media(max-width:640px){
-      #__video_circle{ left:18px; bottom:90px; width:80px; height:80px; }
+      #__video_circle{ 
+        right:18px; 
+        bottom:90px; 
+        width:80px; 
+        height:80px; 
+      }
       #__video_modal_content{ max-width:340px; }
     }
   `;
   document.head.appendChild(style);
 
   const preview = document.getElementById("__video_preview");
-  // Mini-loop mudo em standby
-  preview.src = "/video.mp4"; 
+
+  // Mini vídeo em loop na bolinha
+  preview.src = "/video.mp4";
   preview.autoplay = true;
   preview.loop = true;
   preview.muted = true;
@@ -205,18 +229,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   const overlay = document.getElementById("__video_overlay");
   const iframe = document.getElementById("__video_iframe");
 
-  // Clicar na bolinha
+  // Abrir vídeo
   overlay.onclick = () => {
     modal.style.display="flex";
-    // Define o src do iframe no clique para iniciar autoplay com som
     iframe.src = "https://www.youtube.com/embed/KVhjkbspgEo?autoplay=1";
   };
 
+  // Fechar vídeo
   close.onclick = () => {
     modal.style.display="none";
-    iframe.src = ""; // limpa src para parar o vídeo
+    iframe.src = "";
   };
-  modal.onclick = e => { if(e.target===modal) { modal.style.display="none"; iframe.src=""; } }
+
+  modal.onclick = e => { 
+    if(e.target===modal) { 
+      modal.style.display="none"; 
+      iframe.src="";
+    } 
+  }
+
 })();
 </script>
 
