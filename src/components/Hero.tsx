@@ -80,7 +80,7 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                             >
-                                Criamos sua loja virtual e damos todo suporte para você começar a vender.
+                                Criamos sua loja virtual completa e damos todo suporte para você começar a vender online com segurança.
                             </motion.p>
 
                             <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
