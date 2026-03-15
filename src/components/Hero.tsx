@@ -56,7 +56,7 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-Aprovado por +300 lojistas
+Partnes Nuvemshop desde 2024
 </span>
 
 </div>
