@@ -28,7 +28,7 @@ const trustedLogos = [
 "/softwares/rdstation.png",
 "/softwares/melhorenvio.png",
 "/softwares/bling.png",
-"/softwares/hostgator.png",
+"/softwares/hostgatir.png",
 "/softwares/tiktokads.png"
 ];
 
