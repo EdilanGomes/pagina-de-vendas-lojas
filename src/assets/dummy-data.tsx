@@ -8,7 +8,7 @@ export const featuresData = [
     },
     {
         icon: <ZapIcon className="w-6 h-6" />,
-        title: 'Tudo integrado para vender sem dor de cabeça',
+        title: 'Tudo integrado para vender',
         desc: 'Pagamentos, envios, automações e ferramentas conectadas para sua loja rodar sem problemas.'
     },
     {
