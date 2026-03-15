@@ -66,18 +66,15 @@
     }
 }
 
-@keyframes scroll {
+@keyframes logos-scroll {
   0% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(-50%);
   }
 }
 
-.animate-scroll {
-  display: flex;
-  width: max-content;
-  animation: scroll 30s linear infinite;
+.animate-logos {
+  animation: logos-scroll 20s linear infinite;
 }
