@@ -20,15 +20,15 @@ export default function Hero() {
 
     // COLOQUE SUAS LOGOS AQUI
     const trustedLogos = [
-  '/softwares/bling.png',
-  '/softwares/edrone.png',
-  '/softwares/googleads.png',
-  '/softwares/hostgator.png',
-  '/softwares/melhorenvio.png',
-  '/softwares/metaads.png',
   '/softwares/nuvem.png',
+  '/softwares/metaads.png',
+  '/softwares/googleads.png',
   '/softwares/rd.png',
+  '/softwares/edrone.png',
   '/softwares/rdstation.png',
+  '/softwares/melhorenvio.png',
+  '/softwares/bling.png',
+  '/softwares/hostgator.png',
   '/softwares/tiktokads.png'
 ];
 
