@@ -18,21 +18,22 @@ const galleryStripImages = [
 "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=100"
 ];
 
-/* LOGOS */
 const trustedLogos = [
 "/softwares/nuvem.png",
 "/softwares/metaads.png",
 "/softwares/googleads.png",
 "/softwares/rd.png",
 "/softwares/edrone.png",
+"/softwares/rdstation.png",
 "/softwares/melhorenvio.png",
 "/softwares/bling.png",
-"/softwares/hostgatir.png",
+"/softwares/hostgator.png",
 "/softwares/tiktokads.png"
 ];
 
 return (
 <>
+
 <section id="home" className="relative z-10">
 
 <div className="max-w-6xl mx-auto px-4 pt-32 pb-20">
@@ -180,13 +181,18 @@ className="w-14 h-10 object-cover rounded"
 </section>
 
 
-{/* LOGOS */}
+{/* LOGOS COM ANIMAÇÃO */}
 
 <section className="border-y border-white/10 py-10 overflow-hidden">
 
 <div className="max-w-6xl mx-auto">
 
-<div className="flex gap-8 animate-logos w-max">
+<div
+className="flex gap-6 w-max"
+style={{
+animation: "scrollLogos 18s linear infinite"
+}}
+>
 
 {[...trustedLogos, ...trustedLogos].map((logo, index) => (
 
@@ -203,22 +209,19 @@ className="h-10 object-contain opacity-80 hover:opacity-100 transition"
 
 </div>
 
-</section>
+<style>
+{`
+@keyframes scrollLogos {
+0% {
+transform: translateX(0);
+}
 
-{trustedLogos.map((logo, index) => (
-
-<img
-key={index}
-src={logo}
-alt="software"
-className="h-10 object-contain opacity-80 hover:opacity-100 transition"
-/>
-
-))}
-
-</div>
-
-</div>
+100% {
+transform: translateX(-50%);
+}
+}
+`}
+</style>
 
 </section>
 
