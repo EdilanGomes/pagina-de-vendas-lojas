@@ -14,7 +14,7 @@ export const featuresData = [
     {
         icon: <VideoIcon className="w-6 h-6" />,
         title: 'Aprenda a usar sua loja de verdade',
-        desc: 'Ensinamos você e sua equipe de forma prática para usar a loja com segurança desde o primeiro dia.'
+        desc: 'Treinamos você e sua equipe de forma fácil para usar a loja com segurança desde o primeiro dia.'
     }
 ];
 
