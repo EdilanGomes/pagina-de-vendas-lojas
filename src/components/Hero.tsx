@@ -68,9 +68,9 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.1 }}
                             >
-                                Fazemos lojas para <br />
+                                Quer ter uma loja virtual? <br />
                                 <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
-                                    escalar as suas vendas no digital
+                                    Nós criamos para você.
                                 </span>
                             </motion.h1>
 
