@@ -183,11 +183,28 @@ className="w-14 h-10 object-cover rounded"
 
 {/* LOGOS */}
 
-<section className="border-y border-white/10 py-10">
+<section className="border-y border-white/10 py-10 overflow-hidden">
 
 <div className="max-w-6xl mx-auto">
 
-<div className="flex flex-wrap justify-center items-center gap-12">
+<div className="flex gap-8 animate-logos w-max">
+
+{[...trustedLogos, ...trustedLogos].map((logo, index) => (
+
+<img
+key={index}
+src={logo}
+alt="software"
+className="h-10 object-contain opacity-80 hover:opacity-100 transition"
+/>
+
+))}
+
+</div>
+
+</div>
+
+</section>
 
 {trustedLogos.map((logo, index) => (
 
