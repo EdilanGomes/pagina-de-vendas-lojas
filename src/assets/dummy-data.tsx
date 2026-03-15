@@ -4,7 +4,7 @@ export const featuresData = [
     {
         icon: <UploadIcon className="w-6 h-6" />,
         title: 'Sua loja começa do jeito certo',
-        desc: 'Arquitetura, páginas, categorias e experiência pensadas para transformar visitantes em clientes.'
+        desc: 'Arquitetura, páginas, categorias e experiência pensadas para transformar clicks em vendas.'
     },
     {
         icon: <ZapIcon className="w-6 h-6" />,
