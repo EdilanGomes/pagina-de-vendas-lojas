@@ -80,7 +80,7 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                             >
-                                • Não tem loja? Criamos • Quer migrar? Fazemos • Sem produto? Sem problema • Loja pronta
+                                Criamos sua loja virtual e damos todo suporte para você começar a vender.
                             </motion.p>
 
                             <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
