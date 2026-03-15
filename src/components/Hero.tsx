@@ -70,7 +70,7 @@ export default function Hero() {
                             >
                                 Comece hoje sua loja virtual profissional. <br />
                                 <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
-                                    Nós criamos para você.
+                                    Deixe com a gente.
                                 </span>
                             </motion.h1>
 
