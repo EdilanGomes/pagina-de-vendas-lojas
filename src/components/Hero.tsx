@@ -68,7 +68,7 @@ Tenha sua loja vendendo em até 10 dias
 <br />
 
 <span className="text-indigo-400">
-Sem complicação. Deixe com a gente.
+Deixe com a gente.
 </span>
 
 </h1>
