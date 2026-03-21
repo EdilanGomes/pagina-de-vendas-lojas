@@ -63,7 +63,7 @@ Partnes Nuvemshop desde 2024
 
 <h1 className="text-4xl md:text-5xl font-bold mb-6 max-w-xl">
 
-Tenha sua loja vendendo em até 10 dias
+Tenha sua loja virtual vendendo
 
 <br />
 
