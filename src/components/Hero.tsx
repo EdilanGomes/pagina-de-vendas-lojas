@@ -61,16 +61,14 @@ Partnes Nuvemshop desde 2024
 
 </div>
 
-<h1
-  className="text-4xl md:text-5xl font-bold mb-6 max-w-xl"
-  style={{ lineHeight: "1.1" }}
->
-  Tenha sua loja virtual vendendo
-  <br style={{ display: "block" }} className="md:hidden" />
+<h1 className="text-4xl md:text-5xl font-bold mb-6 max-w-xl leading-[1.1]">
+  Tenha sua loja virtual vendendo{" "}
+  
+  <span className="block md:inline">
+    de verdade
+  </span>
 
-  de verdade
-
-  <span style={{ display: "block", color: "#818cf8" }}>
+  <span className="block text-indigo-400">
     Deixe com a gente.
   </span>
 </h1>
