@@ -9,8 +9,7 @@ const trustedUserImages = [
 "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop"
 ];
 
-const mainImageUrl =
-"https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?q=80&w=1600&auto=format&fit=crop";
+const mainImageUrl = "/softwares/lojavirtual.png";
 
 const galleryStripImages = [
 "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=100",
