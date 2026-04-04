@@ -68,6 +68,12 @@ export default function CTA() {
           </div>
         </div>
       </div>
+
+
+      <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-7a5f3da8-faf9-432f-9c55-0800da13a3ed" data-elfsight-app-lazy></div>
+
     </section>
   );
 }
