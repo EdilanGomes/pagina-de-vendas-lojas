@@ -3,15 +3,17 @@ import Features from "../components/Features";
 import Pricing from "../components/Pricing";
 import Faq from "../components/Faq";
 import CTA from "../components/CTA";
+import Reviews from "../components/Reviews";
 
 export default function Home() {
-    return (
-        <>
-            <Hero />
-            <Features />
-            <Pricing />
-            <Faq />
-            <CTA />
-        </>
-    )
+  return (
+    <>
+      <Hero />
+      <Features />
+      <Pricing />
+      <Faq />
+      <CTA />
+      <Reviews />
+    </>
+  );
 }
