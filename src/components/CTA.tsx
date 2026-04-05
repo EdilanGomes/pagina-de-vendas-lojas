@@ -69,10 +69,6 @@ export default function CTA() {
         </div>
       </div>
 
-      <!-- Elfsight Google Reviews | Untitled Google Reviews -->
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div class="elfsight-app-34396a43-1e6b-4b8f-a10a-f6d6560f9a69" data-elfsight-app-lazy></div>
-
     </section>
   );
 }
