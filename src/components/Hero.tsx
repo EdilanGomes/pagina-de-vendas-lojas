@@ -10,7 +10,7 @@ const trustedUserImages = [
 ];
 
 const mainImageUrl =
-"https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?q=80&w=1600&auto=format&fit=crop";
+"https://i.imgur.com/FsAAai1.png";
 
 const galleryStripImages = [
 "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=100",
