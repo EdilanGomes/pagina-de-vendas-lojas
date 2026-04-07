@@ -133,7 +133,7 @@ Nossa parceria começa aqui
 <div>Consultoria 100% grátis</div>
 
 <div className="text-xs text-gray-400">
-Marketing & comercial
+Marketing, comercial e dev
 </div>
 
 </div>
