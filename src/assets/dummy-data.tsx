@@ -42,7 +42,7 @@ export const plansData = [
         desc: 'Para lojistas que já querem dar um Boost',
         credits: 'Valor único',
         features: [
-            'Tudo do plano Crescimento',
+            'Tudo do plano anterior',
             'SEO otimizado para Google',
             'Estratégia de conversão da loja',
             'Produtos sugeridos no checkout',
@@ -57,9 +57,9 @@ export const plansData = [
         name: 'Avançado',
         price: 'Sob consulta',
         desc: 'Para marcas prontas para escalar',
-        credits: 'Comercial',
+        credits: 'Assessoria',
         features: [
-            'Tudo do plano Expansão',
+            'Tudo do plano anterior',
             'Gerente de projeto dedicado',
             'Otimização contínua da loja',
             'Estratégia completa de marketing',

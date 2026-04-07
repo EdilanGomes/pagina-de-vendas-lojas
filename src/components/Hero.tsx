@@ -112,10 +112,10 @@ Falar com comercial
 
 <div>
 
-<div>Execução orientada por estratégia</div>
+<div>Primeira mensalidade grátis</div>
 
 <div className="text-xs text-gray-400">
-Focado em crescimento
+Nossa parceria começa aqui
 </div>
 
 </div>
@@ -130,10 +130,10 @@ Focado em crescimento
 
 <div>
 
-<div>Trabalho completo</div>
+<div>Consultoria 100% grátis</div>
 
 <div className="text-xs text-gray-400">
-Design, dev & marketing
+Marketing & comercial
 </div>
 
 </div>
