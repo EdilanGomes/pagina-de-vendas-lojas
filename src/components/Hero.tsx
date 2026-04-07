@@ -81,13 +81,13 @@ Criamos sua loja virtual completa e damos todo suporte para você começar a ven
 
 <a href="https://wa.me/554796648695">
 <PrimaryButton className="py-3 px-7">
-Agendar demonstração
+Consultoria gratuita
 <ArrowRightIcon className="size-4" />
 </PrimaryButton>
 </a>
 
 <a
-href="https://www.youtube.com/shorts/KVhjkbspgEo"
+href="https://wa.me/554796648695"
 target="_blank"
 rel="noopener noreferrer"
 >
@@ -96,7 +96,7 @@ rel="noopener noreferrer"
 
 <PlayIcon className="size-4" />
 
-Ver nosso trabalho
+Falar com comercial
 
 </GhostButton>
 
