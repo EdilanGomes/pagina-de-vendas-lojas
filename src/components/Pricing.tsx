@@ -46,6 +46,18 @@ export default function Pricing() {
     }
   ];
 
+  const trustedLogos = [
+    "/softwares/nuvem.png",
+    "/softwares/metaads.png",
+    "/softwares/googleads.png",
+    "/softwares/rd.png",
+    "/softwares/edrone.png",
+    "/softwares/melhorenvio.png",
+    "/softwares/bling.png",
+    "/softwares/hostgatir.png",
+    "/softwares/tiktokads.png"
+  ];
+
   return (
     <section id="pricing" className="py-20 bg-white/3 border-t border-white/6">
       <div className="max-w-6xl mx-auto px-4">
@@ -113,7 +125,7 @@ export default function Pricing() {
           ))}
         </div>
 
-        {/* CTA FINAL */}
+        {/* TEXTO FINAL */}
         <div className="text-center mt-12 max-w-xl mx-auto">
           <p className="text-sm text-gray-400 leading-relaxed">
             Cada projeto é único. Na consultoria gratuita, analisamos seu cenário,
@@ -122,6 +134,41 @@ export default function Pricing() {
         </div>
 
       </div>
+
+      {/* LOGOS CARROSSEL */}
+      <div className="border-y border-white/10 mt-16 py-8 overflow-hidden">
+        <div className="max-w-6xl mx-auto">
+
+          <div
+            className="flex gap-6 w-max"
+            style={{
+              animation: "scrollLogos 18s linear infinite"
+            }}
+          >
+
+            {[...trustedLogos, ...trustedLogos].map((logo, index) => (
+              <img
+                key={index}
+                src={logo}
+                alt="software"
+                className="h-8 md:h-10 object-contain opacity-70 hover:opacity-100 transition"
+              />
+            ))}
+
+          </div>
+
+        </div>
+
+        <style>
+          {`
+          @keyframes scrollLogos {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+          `}
+        </style>
+      </div>
+
     </section>
   );
 }
