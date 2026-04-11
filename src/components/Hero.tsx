@@ -74,8 +74,8 @@ no digital
 
 </h1>
 
-<p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base">
-Tráfego pago, social media e desenvolvimento trabalhando juntos para atrair, engajar e converter clientes.
+<p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
+Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento real para o seu negócio.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -109,7 +109,7 @@ Falar com especialista
 <div>
 <div>Estratégia completa</div>
 <div className="text-xs text-gray-400">
-Marketing, conteúdo e tecnologia
+Planejamento, execução e crescimento contínuo
 </div>
 </div>
 
@@ -124,7 +124,7 @@ Marketing, conteúdo e tecnologia
 <div>
 <div>Execução integrada</div>
 <div className="text-xs text-gray-400">
-Tudo funcionando junto para gerar resultado
+Marketing e tecnologia trabalhando juntos
 </div>
 </div>
 
