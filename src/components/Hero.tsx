@@ -75,7 +75,7 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento consistente para o seu negócio.
+Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento consistente para sua empresa.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
