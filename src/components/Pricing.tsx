@@ -51,7 +51,7 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto px-4">
 
         <Title
-          title="Como podemos ajudar"
+          title="Como podemos ajudar?"
           heading="O que você pode esperar ao trabalhar com a gente"
           description="Mais do que serviços isolados, entregamos estratégia, execução e crescimento contínuo."
         />
