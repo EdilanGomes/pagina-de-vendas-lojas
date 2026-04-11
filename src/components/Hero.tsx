@@ -75,7 +75,7 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento consistente para sua empresa.
+Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento consistente.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -109,7 +109,7 @@ Falar com especialista
 <div>
 <div>Estratégia completa</div>
 <div className="text-xs text-gray-400">
-Planejamento, execução e crescimento contínuo
+Marketing, conteúdo e sistemas
 </div>
 </div>
 
@@ -124,7 +124,7 @@ Planejamento, execução e crescimento contínuo
 <div>
 <div>Execução integrada</div>
 <div className="text-xs text-gray-400">
-Marketing e tecnologia trabalhando juntos
+Empresa e marketing alinhados
 </div>
 </div>
 
