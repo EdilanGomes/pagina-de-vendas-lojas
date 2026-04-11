@@ -9,35 +9,39 @@ export default function Faq() {
     const faqData = [
         {
             question: "Vocês trabalham com qualquer tipo de empresa?",
-            answer: "Sim. Atendemos desde empresas que estão começando até negócios que já faturam e querem escalar. Adaptamos a estratégia de acordo com o momento da sua empresa."
+            answer: "Sim — mas o mais importante não é o segmento, e sim o momento da sua empresa. Já ajudamos negócios que estavam começando do zero e outros que precisavam destravar crescimento. Na conversa, conseguimos entender exatamente onde você está e o que faz mais sentido aplicar."
         },
         {
             question: "Preciso já ter um site ou loja pronta?",
-            answer: "Não. Podemos criar toda a estrutura para você, incluindo site, landing page ou loja virtual. Também trabalhamos com projetos já existentes, fazendo melhorias e otimizações."
+            answer: "Não precisa. A gente pode construir toda a estrutura do zero ou pegar algo que você já tem e melhorar. Inclusive, muitos clientes chegam com algo pronto, mas que não converte — e é aí que entra o ajuste estratégico."
         },
         {
             question: "Vocês fazem só tráfego pago ou cuidam de tudo?",
-            answer: "Cuidamos de toda a estratégia digital: tráfego pago, redes sociais e desenvolvimento. Tudo integrado para gerar mais resultados e não ações isoladas."
+            answer: "A gente não acredita em marketing isolado. Tráfego sem estrutura não converte, e estrutura sem tráfego não cresce. Por isso, trabalhamos integrando tudo — aquisição, conteúdo e tecnologia — para realmente gerar resultado."
         },
         {
-            question: "Em quanto tempo começo a ver resultados?",
-            answer: "Depende do projeto, mas campanhas de tráfego pago podem gerar resultados nas primeiras semanas. Já o crescimento estruturado acontece de forma contínua com otimizações ao longo do tempo."
+            question: "Em quanto tempo começo a ver resultado?",
+            answer: "Algumas ações, como tráfego pago, já começam a gerar movimento nas primeiras semanas. Mas o crescimento consistente vem com ajustes e otimizações ao longo do tempo. Na consultoria, conseguimos te dar uma visão mais realista baseada no seu cenário."
         },
         {
             question: "Vocês também cuidam das redes sociais?",
-            answer: "Sim. Criamos estratégia, conteúdo e gestão completa das redes sociais para fortalecer sua marca e gerar mais oportunidades de negócio."
+            answer: "Sim, mas não só postar por postar. A gente trabalha posicionamento, conteúdo e estratégia para que suas redes realmente ajudem no crescimento do negócio — não só na estética."
         },
         {
             question: "Vocês criam ou só gerenciam lojas virtuais?",
-            answer: "Fazemos os dois. Criamos lojas do zero, migramos plataformas e também ajudamos a otimizar e escalar lojas que já estão no ar."
+            answer: "Fazemos os dois. Criamos lojas do zero, migramos de plataforma e também ajudamos lojas que já existem a vender mais. Muitas vezes, o problema não é a loja — é a forma como ela está estruturada para vender."
         },
         {
             question: "Como funciona o processo de trabalho?",
-            answer: "Começamos com um diagnóstico do seu negócio, depois definimos a estratégia e partimos para execução. Acompanhamos tudo de perto com otimizações constantes."
+            answer: "Primeiro entendemos seu negócio e onde estão os gargalos. Depois desenhamos a estratégia e partimos para execução. O diferencial está no acompanhamento constante — ajustando o que for necessário para melhorar os resultados."
         },
         {
             question: "O atendimento é próximo ou automatizado?",
-            answer: "Nosso atendimento é próximo e estratégico. Você terá suporte direto com nosso time para acompanhar resultados e evoluir seu projeto."
+            answer: "Totalmente próximo. Você fala com pessoas, não com robôs. A ideia é ter um parceiro acompanhando seu crescimento e não só alguém executando tarefas."
+        },
+        {
+            question: "Como funciona a consultoria gratuita?",
+            answer: "Você agenda um horário e conversa direto com um especialista. Nessa conversa, analisamos seu cenário, apontamos oportunidades e te mostramos caminhos claros para evoluir. Mesmo que você não feche com a gente, já sai com uma visão muito mais estratégica do seu negócio."
         }
     ];
 
@@ -48,7 +52,7 @@ export default function Faq() {
                 <Title
                     title="FAQ"
                     heading="Dúvidas antes de começar?"
-                    description="Respondemos as principais perguntas sobre como funciona nosso trabalho e como podemos ajudar sua empresa a crescer no digital."
+                    description="Se você ainda está avaliando, essas respostas vão te ajudar a entender melhor como podemos apoiar o crescimento da sua empresa."
                 />
 
                 <div className="space-y-3">
