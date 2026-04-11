@@ -10,7 +10,7 @@ export default function Features() {
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
             title: "Tráfego Pago",
-            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair clientes qualificados e gerar vendas com consistência."
+            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair clientes qualificados e gerar vendas."
         },
         {
             icon: <ShoppingCart className="size-5 text-indigo-400" />,
