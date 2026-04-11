@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react';
-import { PrimaryButton, GhostButton } from './Buttons';
+import { GhostButton } from './Buttons';
 import Title from './Title';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
@@ -13,35 +13,35 @@ export default function Pricing() {
   const services = [
     {
       name: "Tráfego Pago",
-      desc: "Para atrair clientes qualificados e gerar vendas de forma previsível.",
+      desc: "Colocamos sua empresa na frente de quem realmente está pronto para comprar.",
       features: [
-        "Planejamento estratégico de campanhas",
-        "Gestão de anúncios no Google e Meta",
-        "Otimizações contínuas para melhorar resultados",
-        "Escala de campanhas com foco em ROI",
-        "Relatórios claros e acompanhamento"
+        "Análise do seu mercado e definição da melhor estratégia",
+        "Criação e gestão de campanhas no Google e redes sociais",
+        "Ajustes frequentes para reduzir custo e aumentar resultados",
+        "Escala das campanhas conforme os resultados aparecem",
+        "Relatórios simples para você entender o que está funcionando"
       ]
     },
     {
       name: "Social Media",
-      desc: "Para fortalecer sua marca e gerar presença digital consistente.",
+      desc: "Transformamos suas redes sociais em um canal real de atração e autoridade.",
       features: [
-        "Planejamento de conteúdo estratégico",
-        "Gestão completa das redes sociais",
-        "Posicionamento e identidade da marca",
-        "Criação de conteúdo com foco em resultado",
-        "Acompanhamento de crescimento e engajamento"
+        "Planejamento do que postar e como se posicionar",
+        "Criação de conteúdos alinhados com seu público",
+        "Organização do perfil para transmitir profissionalismo",
+        "Postagens com foco em gerar interesse e oportunidades",
+        "Acompanhamento do crescimento e evolução da marca"
       ]
     },
     {
       name: "Desenvolvimento",
-      desc: "Para estruturar sua presença digital e converter visitantes em clientes.",
+      desc: "Criamos estruturas digitais que passam confiança e ajudam a converter clientes.",
       features: [
-        "Criação de sites e landing pages",
-        "Lojas virtuais prontas para vender",
-        "Migração e otimização de plataformas",
-        "Estrutura pensada para conversão",
-        "Integrações com ferramentas de marketing"
+        "Criação de sites e páginas com visual profissional",
+        "Lojas virtuais prontas para vender desde o início",
+        "Melhorias em sites já existentes que não convertem",
+        "Organização da estrutura pensando na jornada do cliente",
+        "Integrações com ferramentas de marketing e vendas"
       ]
     }
   ];
@@ -53,7 +53,7 @@ export default function Pricing() {
         <Title
           title="Como podemos ajudar?"
           heading="O que você pode esperar ao trabalhar com a gente"
-          description="Mais do que serviços isolados, entregamos estratégia, execução e crescimento contínuo."
+          description="Aqui você não contrata apenas um serviço. Você conta com profissionais focados em entender seu negócio e gerar resultados de verdade."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -83,16 +83,16 @@ export default function Pricing() {
 
               <div className="mb-6">
                 <h3 className="text-lg font-semibold mb-2">{service.name}</h3>
-                <p className="text-sm text-gray-300">{service.desc}</p>
+                <p className="text-sm text-gray-300 leading-relaxed">{service.desc}</p>
               </div>
 
               <ul className="space-y-3 mb-6">
                 {service.features.map((feat, i) => (
                   <li
                     key={i}
-                    className="flex items-start gap-3 text-sm text-gray-300"
+                    className="flex items-start gap-3 text-sm text-gray-300 leading-relaxed"
                   >
-                    <Check className="w-4 h-4 text-indigo-400 mt-[2px]" />
+                    <Check className="w-4 h-4 text-indigo-400 mt-[3px]" />
                     {feat}
                   </li>
                 ))}
@@ -105,12 +105,20 @@ export default function Pricing() {
                 className="block"
               >
                 <GhostButton className="w-full justify-center">
-                  Quero entender mais
+                  Falar com especialista
                 </GhostButton>
               </a>
 
             </motion.div>
           ))}
+        </div>
+
+        {/* CTA FINAL */}
+        <div className="text-center mt-12 max-w-xl mx-auto">
+          <p className="text-sm text-gray-400 leading-relaxed">
+            Cada projeto é único. Na consultoria gratuita, analisamos seu cenário,
+            tiramos suas dúvidas e mostramos exatamente o que faz sentido para o seu momento.
+          </p>
         </div>
 
       </div>
