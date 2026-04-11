@@ -55,7 +55,7 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-+40 empresas atendidas com sucesso
++300 empresas atendidas com sucesso
 </span>
 
 </div>
@@ -69,7 +69,7 @@ sua empresa no digital
 </span>
 
 <span className="block text-indigo-400">
-com estratégia e execução
+Estratégia e execução.
 </span>
 
 </h1>
