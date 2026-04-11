@@ -35,12 +35,11 @@ return (
 
 <section id="home" className="relative z-10">
 
-<div className="max-w-6xl mx-auto px-4 pt-32 pb-20">
+<div className="max-w-6xl mx-auto px-4 pt-28 md:pt-32 pb-16 md:pb-20">
 
-<div className="grid md:grid-cols-2 gap-12 items-center">
+<div className="grid md:grid-cols-2 gap-10 md:gap-12 items-center">
 
 {/* LEFT */}
-
 <div>
 
 <div className="flex items-center gap-3 mb-6 bg-white/10 px-3 py-2 rounded-full w-fit">
@@ -56,32 +55,34 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-Partnes Nuvemshop desde 2024
++40 empresas atendidas com sucesso
 </span>
 
 </div>
 
-<h1 className="text-4xl md:text-5xl font-bold mb-6 max-w-xl leading-[1.1]">
-  Tenha sua loja virtual vendendo{" "}
-  
-  <span className="block md:inline">
-    de verdade
-  </span>
+<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-xl leading-[1.1]">
 
-  <span className="block text-indigo-400">
-    Deixe com a gente.
-  </span>
+Estruturamos e aceleramos{" "}
+
+<span className="block">
+o crescimento da sua empresa
+</span>
+
+<span className="block text-indigo-400">
+no digital
+</span>
+
 </h1>
 
-<p className="text-gray-300 mb-8 max-w-lg">
-Criamos sua loja virtual completa e damos todo suporte para você começar a vender online com segurança.
+<p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base">
+Tráfego pago, social media e desenvolvimento trabalhando juntos para atrair, engajar e converter clientes.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
 
 <a href="https://wa.me/554796648695">
-<PrimaryButton className="py-3 px-7">
-Consultoria gratuita
+<PrimaryButton className="py-3 px-6 sm:px-7 w-full sm:w-auto justify-center">
+Receber diagnóstico gratuito
 <ArrowRightIcon className="size-4" />
 </PrimaryButton>
 </a>
@@ -91,51 +92,40 @@ href="https://wa.me/554796648695"
 target="_blank"
 rel="noopener noreferrer"
 >
-
-<GhostButton className="py-3 px-5">
-
+<GhostButton className="py-3 px-5 w-full sm:w-auto justify-center">
 <PlayIcon className="size-4" />
-
-Falar com comercial
-
+Falar com especialista
 </GhostButton>
-
 </a>
 
 </div>
 
-<div className="flex text-sm text-gray-200 bg-white/10 rounded">
+<div className="flex flex-col sm:flex-row text-sm text-gray-200 bg-white/10 rounded overflow-hidden">
 
-<div className="flex items-center gap-2 p-3">
+<div className="flex items-center gap-2 p-3 w-full">
 
 <ZapIcon className="size-4 text-sky-500" />
 
 <div>
-
-<div>Primeira mensalidade grátis</div>
-
+<div>Estratégia completa</div>
 <div className="text-xs text-gray-400">
-Nossa parceria começa aqui
+Marketing, conteúdo e tecnologia
+</div>
 </div>
 
 </div>
 
-</div>
+<div className="hidden sm:block h-6 w-px bg-white/10"></div>
 
-<div className="h-6 w-px bg-white/10"></div>
-
-<div className="flex items-center gap-2 p-3">
+<div className="flex items-center gap-2 p-3 w-full">
 
 <CheckIcon className="size-4 text-cyan-500" />
 
 <div>
-
-<div>Consultoria 100% grátis</div>
-
+<div>Execução integrada</div>
 <div className="text-xs text-gray-400">
-Marketing, comercial e dev
+Tudo funcionando junto para gerar resultado
 </div>
-
 </div>
 
 </div>
@@ -145,10 +135,9 @@ Marketing, comercial e dev
 </div>
 
 {/* RIGHT */}
-
 <div>
 
-<div className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+<div className="rounded-2xl md:rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
 
 <img
 src={mainImageUrl}
@@ -157,14 +146,14 @@ className="w-full h-full object-cover"
 
 </div>
 
-<div className="flex gap-3 mt-4">
+<div className="flex gap-2 sm:gap-3 mt-4">
 
 {galleryStripImages.map((img, i) => (
 
 <img
 key={i}
 src={img}
-className="w-14 h-10 object-cover rounded"
+className="w-12 sm:w-14 h-9 sm:h-10 object-cover rounded"
 />
 
 ))}
@@ -180,9 +169,9 @@ className="w-14 h-10 object-cover rounded"
 </section>
 
 
-{/* LOGOS COM ANIMAÇÃO */}
+{/* LOGOS */}
 
-<section className="border-y border-white/10 py-10 overflow-hidden">
+<section className="border-y border-white/10 py-8 md:py-10 overflow-hidden">
 
 <div className="max-w-6xl mx-auto">
 
@@ -199,7 +188,7 @@ animation: "scrollLogos 18s linear infinite"
 key={index}
 src={logo}
 alt="software"
-className="h-10 object-contain opacity-80 hover:opacity-100 transition"
+className="h-8 md:h-10 object-contain opacity-70 hover:opacity-100 transition"
 />
 
 ))}
@@ -214,7 +203,6 @@ className="h-10 object-contain opacity-80 hover:opacity-100 transition"
 0% {
 transform: translateX(0);
 }
-
 100% {
 transform: translateX(-50%);
 }
