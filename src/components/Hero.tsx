@@ -65,7 +65,7 @@ className="w-6 h-6 rounded-full border border-black"
 Crescimento real para{" "}
 
 <span className="block">
-sua empresa no digital
+sua empresa no digital.
 </span>
 
 <span className="block text-indigo-400">
