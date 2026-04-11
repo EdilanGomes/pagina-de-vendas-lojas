@@ -37,7 +37,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Agende uma conversa gratuita com um especialista, tire suas dúvidas, entenda onde estão as oportunidades e receba direcionamentos claros para crescer no digital.
+              Agende uma conversa gratuita com um especialista, tire suas dúvidas, entenda onde estão as oportunidades e receba direcionamentos claros para crescer.
             </motion.p>
 
             <motion.div
