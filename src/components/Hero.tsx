@@ -60,22 +60,22 @@ className="w-6 h-6 rounded-full border border-black"
 
 </div>
 
-<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-xl leading-[1.1]">
+<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Estruturamos e aceleramos{" "}
+Crescimento real para{" "}
 
 <span className="block">
-o crescimento da sua empresa
+sua empresa no digital
 </span>
 
 <span className="block text-indigo-400">
-no digital
+com estratégia e execução
 </span>
 
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento real para o seu negócio.
+Unimos estratégia, marketing e tecnologia para atrair mais clientes, aumentar suas vendas e gerar crescimento consistente para o seu negócio.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
