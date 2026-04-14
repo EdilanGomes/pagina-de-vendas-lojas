@@ -82,7 +82,7 @@ Marketing para escritórios e clínicas que querem atrair mais clientes e cresce
 
 <a href="https://wa.me/554796648695">
 <PrimaryButton className="py-3 px-6 sm:px-7 w-full sm:w-auto justify-center">
-Receber diagnóstico gratuito
+Falar com comercial
 <ArrowRightIcon className="size-4" />
 </PrimaryButton>
 </a>
