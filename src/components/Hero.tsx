@@ -55,17 +55,17 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-+300 empresas e clínicas atendidas com sucesso
++300 empresas atendidas com sucesso
 </span>
 
 </div>
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Mais pacientes todos os dias{" "}
+Crescimento real para{" "}
 
 <span className="block">
-para sua clínica.
+sua empresa no digital.
 </span>
 
 <span className="block text-indigo-400">
@@ -75,26 +75,26 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Marketing especializado para clínicas que querem atrair pacientes particulares, lotar a agenda e crescer com previsibilidade no digital.
+Marketing para escritórios, clínicas e lojas que querem atrair mais clientes e crescer no digital com consistência.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
 
-<a href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20quero%20atrair%20mais%20pacientes%20e%20melhorar%20meus%20resultados.">
+<a href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes">
 <PrimaryButton className="py-3 px-6 sm:px-7 w-full sm:w-auto justify-center">
-Falar com especialista
+Falar com comercial
 <ArrowRightIcon className="size-4" />
 </PrimaryButton>
 </a>
 
 <a
-href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20quero%20atrair%20mais%20pacientes%20e%20melhorar%20meus%20resultados."
+href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes"
 target="_blank"
 rel="noopener noreferrer"
 >
 <GhostButton className="py-3 px-5 w-full sm:w-auto justify-center">
 <PlayIcon className="size-4" />
-Agendar diagnóstico gratuito
+Agendar consultoria gratuita
 </GhostButton>
 </a>
 
@@ -107,9 +107,9 @@ Agendar diagnóstico gratuito
 <ZapIcon className="size-4 text-sky-500" />
 
 <div>
-<div>Estratégia para clínicas</div>
+<div>Estratégia completa</div>
 <div className="text-xs text-gray-400">
-Captação de pacientes e posicionamento
+Marketing, conteúdo e sistemas
 </div>
 </div>
 
@@ -122,9 +122,9 @@ Captação de pacientes e posicionamento
 <CheckIcon className="size-4 text-cyan-500" />
 
 <div>
-<div>Execução completa</div>
+<div>Execução integrada</div>
 <div className="text-xs text-gray-400">
-Tráfego, conteúdo e conversão
+Empresa e marketing alinhados
 </div>
 </div>
 
