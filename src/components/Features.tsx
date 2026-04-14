@@ -9,18 +9,18 @@ export default function Features() {
     const features = [
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
-            title: "Tráfego Pago",
-            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair clientes qualificados e gerar vendas."
+            title: "Tráfego Pago para Clínicas",
+            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair pacientes qualificados e aumentar sua agenda."
         },
         {
             icon: <ShoppingCart className="size-5 text-indigo-400" />,
-            title: "Lojas Virtuais",
-            desc: "Criamos, migramos e impulsionamos sua loja virtual com estrutura profissional, pronta para vender desde o primeiro dia."
+            title: "Consultoria para Clínicas",
+            desc: "Estruturamos sua clínica com estratégias de marketing, posicionamento e captação para gerar crescimento consistente."
         },
         {
             icon: <Instagram className="size-5 text-indigo-400" />,
-            title: "Social Media",
-            desc: "Gerenciamos suas redes sociais com estratégia, conteúdo e posicionamento para fortalecer sua marca e gerar oportunidades."
+            title: "Social Media para Clínicas",
+            desc: "Gerenciamos suas redes sociais com conteúdo estratégico para gerar autoridade, confiança e novos agendamentos."
         }
     ];
 
@@ -30,8 +30,8 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="Tudo que sua empresa precisa para crescer no digital"
-                    description="Tráfego, conteúdo e tecnologia trabalhando juntos para atrair, engajar e converter clientes."
+                    heading="Tudo que sua clínica precisa para crescer no digital"
+                    description="Tráfego, conteúdo e estratégia trabalhando juntos para atrair pacientes, gerar autoridade e aumentar seu faturamento."
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
