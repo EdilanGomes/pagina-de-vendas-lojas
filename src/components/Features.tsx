@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import Title from './Title';
 import { motion } from 'framer-motion';
-import { Megaphone, Activity, Instagram } from "lucide-react";
+import { Megaphone, ShoppingCart, Instagram } from "lucide-react";
 
 export default function Features() {
     const refs = useRef<(HTMLDivElement | null)[]>([]);
@@ -13,7 +13,7 @@ export default function Features() {
             desc: "Criamos e otimizamos campanhas no Google, Meta e TikTok para atrair pacientes qualificados e aumentar sua agenda com previsibilidade."
         },
         {
-            icon: <Activity className="size-5 text-indigo-400" />,
+            icon: <ShoppingCart className="size-5 text-indigo-400" />,
             title: "Consultoria Estratégica",
             desc: "Analisamos sua clínica e estruturamos um plano completo para posicionamento, captação de pacientes e crescimento consistente."
         },
