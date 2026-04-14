@@ -9,7 +9,7 @@ export default function Features() {
     const features = [
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
-            title: "Tráfego Pago para Clínicas",
+            title: "Anúncios On-line para Clínicas",
             desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair pacientes qualificados e aumentar sua agenda."
         },
         {
