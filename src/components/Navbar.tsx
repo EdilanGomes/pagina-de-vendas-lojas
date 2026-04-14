@@ -52,7 +52,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="text-sm font-medium text-gray-300 hover:text-white transition max-sm:hidden"
           >
-            Sou cliente
+            Falar no WhatsApp
           </a>
 
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
@@ -91,7 +91,7 @@ export default function Navbar() {
           onClick={() => setIsOpen(false)}
           className="font-medium text-gray-300 hover:text-white transition"
         >
-          Sou cliente
+          Falar no WhatsApp
         </a>
 
         <PrimaryButton
@@ -100,7 +100,7 @@ export default function Navbar() {
             window.open(WHATSAPP_LINK, "_blank");
           }}
         >
-          Falar com especialista
+          Marcar consultoria gratuita
         </PrimaryButton>
 
         <button
