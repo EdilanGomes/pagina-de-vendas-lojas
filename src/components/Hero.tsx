@@ -80,7 +80,7 @@ Marketing para escritórios e clínicas que querem atrair mais clientes e cresce
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
 
-<a href="https://wa.me/554796648695">
+<a href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes">
 <PrimaryButton className="py-3 px-6 sm:px-7 w-full sm:w-auto justify-center">
 Falar com comercial
 <ArrowRightIcon className="size-4" />
@@ -88,7 +88,7 @@ Falar com comercial
 </a>
 
 <a
-href="https://wa.me/554796648695"
+href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes"
 target="_blank"
 rel="noopener noreferrer"
 >

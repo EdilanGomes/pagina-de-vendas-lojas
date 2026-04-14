@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const WHATSAPP_LINK =
-  "https://wa.me/554796648695?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.";
+  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

@@ -93,10 +93,10 @@ export const footerLinks = [
     {
         title: "Fale conosco",
         links: [
-            { name: "Implementação", url: "https://wa.me/554796648695?text=Ol%C3%A1!%20Sou%20lojista%20e%20quero%20criar%20uma%20loja%20de%20alta%20convers%C3%A3o.%20Quero%20saber%20como%20funciona." },
-            { name: "Tráfego Pago", url: "https://wa.me/554796648695?text=Ol%C3%A1!%20Sou%20lojista%20e%20quero%20criar%20uma%20loja%20de%20alta%20convers%C3%A3o.%20Quero%20saber%20como%20funciona." },
-            { name: "Branding", url: "https://wa.me/554796648695?text=Ol%C3%A1!%20Sou%20lojista%20e%20quero%20criar%20uma%20loja%20de%20alta%20convers%C3%A3o.%20Quero%20saber%20como%20funciona." },
-            { name: "Social Media", url: "https://wa.me/554796648695?text=Ol%C3%A1!%20Sou%20lojista%20e%20quero%20criar%20uma%20loja%20de%20alta%20convers%C3%A3o.%20Quero%20saber%20como%20funciona." }
+            { name: "Implementação", url: "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes" },
+            { name: "Tráfego Pago", url: "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes" },
+            { name: "Branding", url: "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes" },
+            { name: "Social Media", url: "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes" }
         ]
     },
     {
