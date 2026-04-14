@@ -57,7 +57,7 @@ export default function Navbar() {
 
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
             <PrimaryButton className="max-sm:text-xs hidden sm:inline-block">
-              Falar com especialista
+              Agendar consultoria gratuita
             </PrimaryButton>
           </a>
         </div>
