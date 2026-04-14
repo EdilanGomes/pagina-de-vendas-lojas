@@ -8,40 +8,40 @@ export default function Faq() {
 
     const faqData = [
         {
-            question: "Vocês trabalham com qualquer tipo de empresa?",
-            answer: "Sim — mas o mais importante não é o segmento, e sim o momento da sua empresa. Já ajudamos negócios que estavam começando do zero e outros que precisavam destravar crescimento. Na conversa, conseguimos entender exatamente onde você está e o que faz mais sentido aplicar."
+            question: "Vocês trabalham com qualquer tipo de clínica?",
+            answer: "Sim — atendemos clínicas estéticas, odontológicas, médicas, terapias, veterinárias e profissionais da saúde em geral. O mais importante é entender o momento da sua clínica e criar uma estratégia focada em atrair pacientes e aumentar os agendamentos."
         },
         {
-            question: "Preciso já ter um site ou loja pronta?",
-            answer: "Não precisa. A gente pode construir toda a estrutura do zero ou pegar algo que você já tem e melhorar. Inclusive, muitos clientes chegam com algo pronto, mas que não converte — e é aí que entra o ajuste estratégico."
+            question: "Preciso já ter um site ou página pronta?",
+            answer: "Não. Criamos toda a estrutura para você, desde o site até páginas de captura focadas em conversão. Se você já tiver algo, analisamos e otimizamos para gerar mais agendamentos."
         },
         {
             question: "Vocês fazem só tráfego pago ou cuidam de tudo?",
-            answer: "A gente não acredita em marketing isolado. Tráfego sem estrutura não converte, e estrutura sem tráfego não cresce. Por isso, trabalhamos integrando tudo — aquisição, conteúdo e tecnologia — para realmente gerar resultado."
+            answer: "Cuidamos de todo o processo. Desde os anúncios online (Google, Instagram e Facebook), até a estrutura de captação, páginas, CRM e automações para garantir que os pacientes avancem até o agendamento."
         },
         {
             question: "Em quanto tempo começo a ver resultado?",
-            answer: "Algumas ações, como tráfego pago, já começam a gerar movimento nas primeiras semanas. Mas o crescimento consistente vem com ajustes e otimizações ao longo do tempo. Na consultoria, conseguimos te dar uma visão mais realista baseada no seu cenário."
+            answer: "Os anúncios começam a gerar contatos já nas primeiras semanas. Mas o crescimento consistente vem com otimização, estrutura e acompanhamento. Na consultoria, mostramos uma previsão mais realista para sua clínica."
         },
         {
             question: "Vocês também cuidam das redes sociais?",
-            answer: "Sim, mas não só postar por postar. A gente trabalha posicionamento, conteúdo e estratégia para que suas redes realmente ajudem no crescimento do negócio — não só na estética."
+            answer: "Sim, com foco estratégico. Criamos conteúdos que geram autoridade, confiança e ajudam na decisão do paciente, conectando redes sociais com os anúncios e o processo de agendamento."
         },
         {
-            question: "Vocês criam ou só gerenciam lojas virtuais?",
-            answer: "Fazemos os dois. Criamos lojas do zero, migramos de plataforma e também ajudamos lojas que já existem a vender mais. Muitas vezes, o problema não é a loja — é a forma como ela está estruturada para vender."
+            question: "Como funciona o CRM e os agendamentos?",
+            answer: "Implementamos e treinamos o uso de CRM para organizar seus leads, automatizar contatos e aumentar a taxa de agendamento. Assim, nenhum paciente interessado se perde no processo."
+        },
+        {
+            question: "Vocês trabalham com automação de WhatsApp e e-mail?",
+            answer: "Sim. Criamos automações para nutrir leads, reativar pacientes e acompanhar contatos automaticamente, aumentando as chances de conversão e preenchendo sua agenda."
         },
         {
             question: "Como funciona o processo de trabalho?",
-            answer: "Primeiro entendemos seu negócio e onde estão os gargalos. Depois desenhamos a estratégia e partimos para execução. O diferencial está no acompanhamento constante — ajustando o que for necessário para melhorar os resultados."
-        },
-        {
-            question: "O atendimento é próximo ou automatizado?",
-            answer: "Totalmente próximo. Você fala com pessoas, não com robôs. A ideia é ter um parceiro acompanhando seu crescimento e não só alguém executando tarefas."
+            answer: "Primeiro analisamos sua clínica e identificamos oportunidades. Depois estruturamos anúncios, páginas, CRM e automações. Acompanhamos tudo de perto, otimizando continuamente para aumentar os agendamentos."
         },
         {
             question: "Como funciona a consultoria gratuita?",
-            answer: "Você agenda um horário e conversa direto com um especialista. Nessa conversa, analisamos seu cenário, apontamos oportunidades e te mostramos caminhos claros para evoluir. Mesmo que você não feche com a gente, já sai com uma visão muito mais estratégica do seu negócio."
+            answer: "Você agenda um horário e fala com um especialista. Analisamos sua clínica, mostramos onde estão os gargalos e apresentamos um plano claro para atrair mais pacientes e maximizar seus agendamentos."
         }
     ];
 
@@ -52,7 +52,7 @@ export default function Faq() {
                 <Title
                     title="FAQ"
                     heading="Dúvidas antes de começar?"
-                    description="Se você ainda está avaliando, essas respostas vão te ajudar a entender melhor como podemos apoiar o crescimento da sua empresa."
+                    description="Entenda como ajudamos clínicas a atrair pacientes, automatizar processos e aumentar o número de agendamentos."
                 />
 
                 <div className="space-y-3">
