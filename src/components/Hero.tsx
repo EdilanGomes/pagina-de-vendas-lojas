@@ -94,7 +94,7 @@ rel="noopener noreferrer"
 >
 <GhostButton className="py-3 px-5 w-full sm:w-auto justify-center">
 <PlayIcon className="size-4" />
-Falar com especialista
+Agendar consultoria gratuita
 </GhostButton>
 </a>
 

@@ -117,7 +117,7 @@ export default function Pricing() {
                 className="block"
               >
                 <GhostButton className="w-full justify-center">
-                  Falar com especialista
+                  Agendar consultoria gratuita
                 </GhostButton>
               </a>
 
