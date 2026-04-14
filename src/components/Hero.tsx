@@ -75,7 +75,7 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Marketing para escritórios e clínicas que querem atrair mais clientes e crescer no digital com consistência.
+Marketing para escritórios, clínicas e lojas que querem atrair mais clientes e crescer no digital com consistência.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
