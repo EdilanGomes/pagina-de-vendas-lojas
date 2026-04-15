@@ -75,7 +75,7 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Existe um padrão por trás das clínicas que conseguem atrair pacientes todos os dias. Ao longo desta página, você vai entender como isso funciona na prática.
+Existe um padrão por trás das clínicas que conseguem atrair pacientes todos os dias. Ao longo desta página, você vai entender.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
