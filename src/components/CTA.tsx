@@ -22,7 +22,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70 }}
             >
-              Sua clínica está perdendo pacientes todos os dias
+              Sua clínica está perdendo pacientes todos os dias, já sabia?
             </motion.h2>
 
             <motion.p
