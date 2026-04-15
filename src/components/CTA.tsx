@@ -37,7 +37,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Descubra onde estão os erros, como atrair mais pacientes, aumentar seus agendamentos e criar um crescimento previsível com anúncios, estrutura e automação.
+              Descubra onde estão os erros, como atrair mais pacientes, aumentar seus agendamentos e criar um crescimento previsível com anúncios e estrutura.
             </motion.p>
 
             <motion.div
