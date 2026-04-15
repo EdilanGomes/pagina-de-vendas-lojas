@@ -64,7 +64,7 @@ export default function Pricing() {
 
         <Title
           title="Como podemos ajudar?"
-          heading="Tudo que sua clínica precisa para crescer e lotar a agenda"
+          heading="Para crescer e lotar a sua agenda"
           description="Aqui você encontra estratégia, execução e suporte para atrair pacientes, aumentar agendamentos e estruturar seu crescimento."
         />
 
