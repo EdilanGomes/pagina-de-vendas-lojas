@@ -129,7 +129,7 @@ export default function Pricing() {
         <div className="text-center mt-12 max-w-xl mx-auto">
           <p className="text-sm text-gray-400 leading-relaxed">
             Não importa se você está começando ou quer escalar. Na consultoria gratuita,
-            mostramos exatamente o que sua clínica precisa para atrair mais pacientes e aumentar seus agendamentos.
+            mostramos exatamente o que sua clínica precisa para atrair mais pacientes.
           </p>
         </div>
 
