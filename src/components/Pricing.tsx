@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 const WHATSAPP_LINK =
-  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes";
+  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20quero%20atrair%20mais%20pacientes%20e%20melhorar%20meus%20agendamentos.";
 
 export default function Pricing() {
   const refs = useRef<(HTMLDivElement | null)[]>([]);
@@ -13,35 +13,35 @@ export default function Pricing() {
   const services = [
     {
       name: "Tráfego Pago",
-      desc: "Colocamos sua empresa na frente de quem realmente está pronto para comprar.",
+      desc: "Atraímos pacientes todos os dias para sua clínica através de anúncios online.",
       features: [
-        "Análise do seu mercado e definição da melhor estratégia",
-        "Criação e gestão de campanhas no Google e redes sociais",
-        "Ajustes frequentes para reduzir custo e aumentar resultados",
-        "Escala das campanhas conforme os resultados aparecem",
-        "Relatórios simples para você entender o que está funcionando"
+        "Estratégia focada em gerar pacientes e agendamentos",
+        "Campanhas no Google, Instagram e Facebook",
+        "Otimizações constantes para reduzir custo por lead",
+        "Escala dos anúncios conforme os resultados crescem",
+        "Relatórios simples e acompanhamento próximo"
       ]
     },
     {
       name: "Social Media",
-      desc: "Transformamos suas redes sociais em um canal real de atração e autoridade.",
+      desc: "Transformamos seu Instagram em uma máquina de gerar autoridade e novos pacientes.",
       features: [
-        "Planejamento do que postar e como se posicionar",
-        "Criação de conteúdos alinhados com seu público",
+        "Planejamento de conteúdo estratégico para clínicas",
+        "Postagens que geram confiança e interesse",
         "Organização do perfil para transmitir profissionalismo",
-        "Postagens com foco em gerar interesse e oportunidades",
-        "Acompanhamento do crescimento e evolução da marca"
+        "Conteúdos que ajudam o paciente a decidir",
+        "Crescimento e fortalecimento da sua marca"
       ]
     },
     {
-      name: "Desenvolvimento",
-      desc: "Criamos estruturas digitais que passam confiança e ajudam a converter clientes.",
+      name: "Estrutura e Conversão",
+      desc: "Criamos toda a estrutura para transformar interesse em agendamentos.",
       features: [
-        "Criação de sites e páginas com visual profissional",
-        "Lojas virtuais prontas para vender desde o início",
-        "Melhorias em sites já existentes que não convertem",
-        "Organização da estrutura pensando na jornada do cliente",
-        "Integrações com ferramentas de marketing e vendas"
+        "Criação de site ou página de captura rápida",
+        "Integração com WhatsApp e ferramentas de atendimento",
+        "Implementação e treinamento de CRM",
+        "Automação de mensagens e follow-up de pacientes",
+        "Organização do processo para não perder leads"
       ]
     }
   ];
@@ -64,8 +64,8 @@ export default function Pricing() {
 
         <Title
           title="Como podemos ajudar?"
-          heading="O que você pode esperar ao trabalhar com a gente"
-          description="Aqui você não contrata apenas um serviço. Você conta com profissionais focados em entender seu negócio e gerar resultados de verdade."
+          heading="Tudo que sua clínica precisa para crescer e lotar a agenda"
+          description="Aqui você encontra estratégia, execução e suporte para atrair pacientes, aumentar agendamentos e estruturar seu crescimento."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -99,7 +99,7 @@ export default function Pricing() {
               </div>
 
               <ul className="space-y-3 mb-6">
-                {service.features.map((feat, i) => (
+                {services[i].features.map((feat, i) => (
                   <li
                     key={i}
                     className="flex items-start gap-3 text-sm text-gray-300 leading-relaxed"
@@ -117,7 +117,7 @@ export default function Pricing() {
                 className="block"
               >
                 <GhostButton className="w-full justify-center">
-                  Agendar consultoria gratuita
+                  Agendar diagnóstico gratuito
                 </GhostButton>
               </a>
 
@@ -128,8 +128,8 @@ export default function Pricing() {
         {/* TEXTO FINAL */}
         <div className="text-center mt-12 max-w-xl mx-auto">
           <p className="text-sm text-gray-400 leading-relaxed">
-            Cada projeto é único. Na consultoria gratuita, analisamos seu cenário,
-            tiramos suas dúvidas e mostramos exatamente o que faz sentido para o seu momento.
+            Não importa se você está começando ou quer escalar. Na consultoria gratuita,
+            mostramos exatamente o que sua clínica precisa para atrair mais pacientes e aumentar seus agendamentos.
           </p>
         </div>
 
