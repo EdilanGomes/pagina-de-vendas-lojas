@@ -22,7 +22,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70 }}
             >
-              Sua clínica está perdendo pacientes todos os dias, já sabia?
+              Sua clínica está perdendo pacientes todos os dias?
             </motion.h2>
 
             <motion.p
@@ -70,7 +70,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
             >
-              Sem compromisso • 100% gratuito • Aplicável na sua clínica
+              Sem compromisso • 100% gratuito • Aplicável
             </motion.p>
 
           </div>

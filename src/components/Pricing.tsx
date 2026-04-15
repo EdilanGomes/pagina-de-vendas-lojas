@@ -65,7 +65,7 @@ export default function Pricing() {
         <Title
           title="Como podemos ajudar?"
           heading="Para crescer e lotar a sua agenda"
-          description="Aqui você encontra estratégia, execução e suporte para atrair pacientes, aumentar agendamentos e estruturar seu crescimento."
+          description="Aqui você encontra estratégia, execução e suporte para atrair pacientes e aumentar agendamentos."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
