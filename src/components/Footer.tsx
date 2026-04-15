@@ -15,7 +15,7 @@ export default function Footer() {
                     <div>
                         <img src='/logo.png' alt="logo" className="h-20" />
                         <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
-                            Somos uma agência digital focada em estratégia, design e desenvolvimento, ajudando marcas a construir experiências digitais significativas e a crescer de forma sustentável.
+                            Somos especialistas em marketing para clínicas, focados em atrair pacientes, aumentar agendamentos e estruturar o crescimento com estratégia, anúncios e tecnologia.
                         </p>
                     </div>
 
@@ -47,12 +47,12 @@ export default function Footer() {
                 <p className="py-4 text-center text-sm text-gray-400">
                     © {new Date().getFullYear()} {' '}
                     <a href="https://www.agenciaestrutura.com.br/" target='_blank'>
-                        Estrutura E-commerce & Tecnologias Digitais
+                        Estrutura Marketing para Clínicas
                     </a> {' '} <br />
                     <a href="https://www.agenciaestrutura.com.br/" target='_blank'>
-                        57.688.130/0001-86 ThemeWagon
+                        57.688.130/0001-86
                     </a>
-                    . All rights reserved.
+                    . Todos os direitos reservados.
                 </p>
             </div>
         </motion.footer>
