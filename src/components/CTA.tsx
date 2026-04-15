@@ -3,7 +3,7 @@ import { GhostButton } from './Buttons';
 import { motion } from 'framer-motion';
 
 const WHATSAPP_LINK =
-  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20um%20escrit%C3%B3rio%2Fcl%C3%ADnica%2Floja%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20crescer%20e%20atrair%20mais%20clientes";
+  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20quero%20atrair%20mais%20pacientes%20e%20aumentar%20meus%20agendamentos.";
 
 export default function CTA() {
   return (
@@ -22,7 +22,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70 }}
             >
-              Descubra o que está travando o crescimento do seu negócio
+              Sua clínica está perdendo pacientes todos os dias
             </motion.h2>
 
             <motion.p
@@ -37,7 +37,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Agende uma conversa gratuita com um especialista, tire suas dúvidas, entenda onde estão as oportunidades e receba direcionamentos claros para crescer.
+              Descubra onde estão os erros, como atrair mais pacientes, aumentar seus agendamentos e criar um crescimento previsível com anúncios, estrutura e automação.
             </motion.p>
 
             <motion.div
@@ -58,7 +58,7 @@ export default function CTA() {
                 className="inline-block"
               >
                 <GhostButton className="px-8 py-3 gap-2 text-base">
-                  Quero entender meu cenário <ArrowRightIcon size={20} />
+                  Quero atrair mais pacientes <ArrowRightIcon size={20} />
                 </GhostButton>
               </a>
             </motion.div>
@@ -70,7 +70,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
             >
-              Sem compromisso • 100% gratuito • Resposta rápida
+              Sem compromisso • 100% gratuito • Aplicável na sua clínica
             </motion.p>
 
           </div>
