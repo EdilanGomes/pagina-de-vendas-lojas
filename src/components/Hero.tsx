@@ -75,7 +75,7 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Marketing digital para clínicas que querem atrair pacientes particulares, lotar a agenda e crescer com consistência.
+Existe um padrão por trás das clínicas que conseguem atrair pacientes todos os dias. Ao longo desta página, você vai entender como isso funciona na prática.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
