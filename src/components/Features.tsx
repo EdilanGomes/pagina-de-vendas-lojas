@@ -9,7 +9,7 @@ export default function Features() {
     const features = [
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
-            title: "Anúncios On-line para Clínicas e Escritórios",
+            title: "Anúncios On-line Dedicado",
             desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair clientes qualificados, aumentar agendamentos e gerar novas oportunidades."
         },
         {
@@ -19,7 +19,7 @@ export default function Features() {
         },
         {
             icon: <Instagram className="size-5 text-indigo-400" />,
-            title: "Social Media para Clínicas e Escritórios",
+            title: "Social Media Especializado",
             desc: "Gerenciamos suas redes sociais com conteúdo estratégico para gerar autoridade, confiança e novos contatos todos os meses."
         }
     ];
