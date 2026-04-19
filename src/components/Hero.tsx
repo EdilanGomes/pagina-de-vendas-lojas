@@ -55,17 +55,17 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-+300 clínicas e empresas atendidas com sucesso
++300 clínicas e escritórios atendidos com sucesso
 </span>
 
 </div>
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Mais pacientes para{" "}
+Mais clientes para{" "}
 
 <span className="block">
-sua clínica todos os dias.
+clínicas e escritórios todos os dias.
 </span>
 
 <span className="block text-indigo-400">
@@ -75,12 +75,12 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Existe um padrão por trás das clínicas que conseguem atrair pacientes todos os dias. Ao longo desta página, você vai entender.
+Existe um padrão por trás das clínicas e escritórios que crescem com previsibilidade. Ao longo desta página, você vai entender como aplicar isso no seu negócio.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
 
-<a href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20atrair%20mais%20pacientes.">
+<a href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20empresa%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20atrair%20mais%20clientes.">
 <PrimaryButton className="py-3 px-6 sm:px-7 w-full sm:w-auto justify-center">
 Falar com especialista
 <ArrowRightIcon className="size-4" />
@@ -88,7 +88,7 @@ Falar com especialista
 </a>
 
 <a
-href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20me%20ajudar%20a%20atrair%20mais%20pacientes."
+href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20empresa%20e%20gostaria%20de%20agendar%20um%20diagn%C3%B3stico%20gratuito."
 target="_blank"
 rel="noopener noreferrer"
 >
@@ -107,9 +107,9 @@ Agendar diagnóstico gratuito
 <ZapIcon className="size-4 text-sky-500" />
 
 <div>
-<div>Estratégia para clínicas</div>
+<div>Estratégia para clínicas e escritórios</div>
 <div className="text-xs text-gray-400">
-Captação de pacientes e posicionamento
+Captação de clientes e posicionamento
 </div>
 </div>
 
