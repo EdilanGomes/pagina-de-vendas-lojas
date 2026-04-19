@@ -15,7 +15,7 @@ export default function Footer() {
                     <div>
                         <img src='/logo.png' alt="logo" className="h-20" />
                         <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
-                            Somos especialistas em marketing para clínicas, focados em atrair pacientes, aumentar agendamentos e estruturar o crescimento com economia.
+                            Somos especialistas em marketing, focados em atrair pacientes, aumentar agendamentos e estruturar o crescimento com economia.
                         </p>
                     </div>
 
