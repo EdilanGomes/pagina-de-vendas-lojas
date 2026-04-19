@@ -14,17 +14,17 @@ export default function Features() {
     {
       icon: <Megaphone className="size-5 text-indigo-400" />,
       title: "Tráfego Pago para Gerar Clientes",
-      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook para atrair pessoas interessadas no seu serviço, gerar contatos no WhatsApp e aumentar vendas."
+      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook para atrair pessoas interessadas no seu serviço ou produto."
     },
     {
       icon: <ShoppingCart className="size-5 text-indigo-400" />,
       title: "Consultoria Comercial e Estratégica",
-      desc: "Analisamos seu processo de vendas, atendimento e oferta comercial para identificar gargalos e aumentar conversões, ticket médio e fechamento de clientes."
+      desc: "Analisamos seu processo de vendas, atendimento e oferta comercial para identificar gargalos e aumentar conversões, ticket médio e fechamentos."
     },
     {
       icon: <Instagram className="size-5 text-indigo-400" />,
       title: "Social Media que Gera Autoridade",
-      desc: "Planejamos conteúdos estratégicos para Instagram e redes sociais, fortalecendo sua marca, aumentando confiança e fazendo mais pessoas lembrarem da sua empresa."
+      desc: "Planejamos conteúdos estratégicos para Instagram e redes sociais, fortalecendo sua marca e aumentando confiança."
     }
   ];
 
