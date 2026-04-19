@@ -65,7 +65,7 @@ className="w-6 h-6 rounded-full border border-black"
 Mais clientes para{" "}
 
 <span className="block">
-clínicas e escritórios todos os dias.
+clínicas e escritórios direto no WhatsApp.
 </span>
 
 <span className="block text-indigo-400">
