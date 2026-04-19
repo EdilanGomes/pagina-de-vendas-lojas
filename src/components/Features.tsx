@@ -10,17 +10,17 @@ export default function Features() {
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
             title: "Anúncios | Growth Performance",
-            desc: "Criamos campanhas no Google, Meta e outras plataformas com foco em crescimento previsível, geração de leads qualificados e aumento real de agendamentos ou contratos."
+            desc: "Criamos campanhas no Google, Meta e outras plataformas com foco em crescimento previsível, geração de leads qualificados e aumento real."
         },
         {
             icon: <ShoppingCart className="size-5 text-indigo-400" />,
             title: "Consultoria em Marketing/Comercial",
-            desc: "Diagnosticamos gargalos comerciais e aplicamos estratégias de posicionamento, oferta e tomada de decisão para acelerar resultados com inteligência."
+            desc: "Diagnosticamos gargalos comerciais e aplicamos estratégias de posicionamento, oferta e tomada de decisão para acelerar resultados."
         },
         {
             icon: <Instagram className="size-5 text-indigo-400" />,
             title: "Social Media Estratégico",
-            desc: "Transformamos suas redes sociais em autoridade digital, usando conteúdo persuasivo, gatilhos mentais e percepção de valor para gerar confiança e demanda."
+            desc: "Transformamos suas redes sociais em autoridade digital, usando conteúdo persuasivo, gatilhos mentais e percepção de valor."
         }
     ];
 
