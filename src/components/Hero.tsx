@@ -56,15 +56,16 @@ export default function Hero() {
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
-                Descubra como transformar o marketing do seu{" "}
+                Transforme seu escritório ou clínica{" "}
+                
                 <span className="block">
-                  escritório ou clínica em 60 dias.
+                    em uma máquina de clientes em 60 dias.
                 </span>
 
                 <span className="block text-indigo-400">
-                  Estratégia e execução.
+                    Estratégia e execução.
                 </span>
-              </h1>
+                </h1>
 
               <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
                 Existe um padrão por trás das clínicas e escritórios que crescem
