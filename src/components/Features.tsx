@@ -9,18 +9,18 @@ export default function Features() {
     const features = [
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
-            title: "Anúncios On-line Dedicado",
-            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair clientes qualificados, aumentar agendamentos e gerar novas oportunidades."
+            title: "Anúncios | Growth Performance",
+            desc: "Criamos campanhas no Google, Meta e outras plataformas com foco em crescimento previsível, geração de leads qualificados e aumento real de agendamentos ou contratos."
         },
         {
             icon: <ShoppingCart className="size-5 text-indigo-400" />,
-            title: "Consultoria Estratégica",
-            desc: "Estruturamos clínicas e escritórios com estratégias de marketing, posicionamento e captação para gerar crescimento previsível e consistente."
+            title: "Consultoria em Marketing/Comercial",
+            desc: "Diagnosticamos gargalos comerciais e aplicamos estratégias de posicionamento, oferta e tomada de decisão para acelerar resultados com inteligência."
         },
         {
             icon: <Instagram className="size-5 text-indigo-400" />,
-            title: "Social Media Especializado",
-            desc: "Gerenciamos suas redes sociais com conteúdo estratégico para gerar autoridade, confiança e novos contatos todos os meses."
+            title: "Social Media Estratégico",
+            desc: "Transformamos suas redes sociais em autoridade digital, usando conteúdo persuasivo, gatilhos mentais e percepção de valor para gerar confiança e demanda."
         }
     ];
 
@@ -30,8 +30,8 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="Clínicas e escritórios precisam para crescer"
-                    description="Tráfego, conteúdo e estratégia trabalhando juntos para atrair clientes, fortalecer sua autoridade e aumentar seu faturamento."
+                    heading="Especialistas em Growth e Neuro Marketing para Clínicas e Escritórios"
+                    description="Estratégia, aquisição e posicionamento trabalhando juntos para gerar crescimento previsível, autoridade e mais clientes."
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
