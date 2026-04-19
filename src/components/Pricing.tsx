@@ -35,7 +35,7 @@ export default function Pricing() {
     },
     {
       name: "Estrutura e Conversão",
-      desc: "Organizamos toda a jornada para transformar visitas e contatos em clientes reais.",
+      desc: "Organizamos toda a jornada para transformar visitas e contatos em clientes.",
       features: [
         "Criação de site ou páginas de alta conversão",
         "Integração com WhatsApp e atendimento",
