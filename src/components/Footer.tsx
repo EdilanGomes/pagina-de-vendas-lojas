@@ -15,7 +15,7 @@ export default function Footer() {
                     <div>
                         <img src='/logo.png' alt="logo" className="h-20" />
                         <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
-                            Somos especialistas em marketing, focados em atrair pacientes, aumentar agendamentos e estruturar o crescimento com economia.
+                            Mais do que prestar um serviço, vestimos a camisa do seu negócio. Trabalhamos lado a lado com você para gerar crescimento, aumentar resultados e construir uma operação sólida para sua clínica, escritório ou consultório.
                         </p>
                     </div>
 
@@ -47,7 +47,7 @@ export default function Footer() {
                 <p className="py-4 text-center text-sm text-gray-400">
                     © {new Date().getFullYear()} {' '}
                     <a href="https://www.agenciaestrutura.com.br/" target='_blank'>
-                        Estrutura Marketing para Clínicas
+                        Estrutura Marketing para  e Escritórios
                     </a> {' '} <br />
                     <a href="https://www.agenciaestrutura.com.br/" target='_blank'>
                         57.688.130/0001-86
