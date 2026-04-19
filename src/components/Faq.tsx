@@ -8,40 +8,40 @@ export default function Faq() {
 
     const faqData = [
         {
-            question: "Vocês trabalham com qualquer tipo de clínica?",
-            answer: "Sim — atendemos clínicas estéticas, odontológicas, médicas, terapias, veterinárias e profissionais da saúde em geral. O mais importante é entender o momento da sua clínica e criar uma estratégia focada em atrair pacientes e aumentar os agendamentos."
+            question: "Vocês trabalham com quais tipos de clínicas e escritórios?",
+            answer: "Sim. Atendemos clínicas odontológicas, médicas, estéticas, psicológicas, terapêuticas, veterinárias e profissionais da saúde em geral. Também atendemos escritórios de advocacia, contabilidade, arquitetura, engenharia e negócios consultivos. O foco é entender seu momento e criar uma estratégia para gerar crescimento."
         },
         {
-            question: "Preciso já ter um site ou página pronta?",
-            answer: "Não. Criamos toda a estrutura para você, desde o site até páginas de captura focadas em conversão. Se você já tiver algo, analisamos e otimizamos para gerar mais agendamentos."
+            question: "Preciso já ter site ou estrutura pronta para começar?",
+            answer: "Não. Podemos desenvolver toda a estrutura necessária, desde site institucional até páginas focadas em conversão. Se você já possui algo pronto, analisamos e otimizamos para melhorar resultados."
         },
         {
             question: "Vocês fazem só tráfego pago ou cuidam de tudo?",
-            answer: "Cuidamos de todo o processo. Desde os anúncios online (Google, Instagram e Facebook), até a estrutura de captação, páginas, CRM e automações para garantir que os pacientes avancem até o agendamento."
+            answer: "Atuamos de forma estratégica e completa. Podemos cuidar da captação com anúncios, redes sociais, posicionamento digital, páginas, CRM, automações e melhoria da jornada comercial."
         },
         {
             question: "Em quanto tempo começo a ver resultado?",
-            answer: "Os anúncios começam a gerar contatos já nas primeiras semanas. Mas o crescimento consistente vem com otimização, estrutura e acompanhamento. Na consultoria, mostramos uma previsão mais realista para sua clínica."
+            answer: "Isso depende do mercado, da estrutura atual e do objetivo. Em muitos casos, campanhas já começam a gerar contatos nas primeiras semanas. Já crescimento consistente vem com otimização contínua e estratégia bem aplicada."
         },
         {
-            question: "Vocês também cuidam das redes sociais?",
-            answer: "Sim, com foco estratégico. Criamos conteúdos que geram autoridade, confiança e ajudam na decisão do paciente, conectando redes sociais com os anúncios e o processo de agendamento."
+            question: "Vocês também gerenciam redes sociais?",
+            answer: "Sim. Trabalhamos social media com foco em autoridade, percepção de valor e geração de oportunidades. Não é apenas postar conteúdo, e sim posicionar sua marca para vender mais."
         },
         {
-            question: "Como funciona o CRM e os agendamentos?",
-            answer: "Implementamos e treinamos o uso de CRM para organizar seus leads, automatizar contatos e aumentar a taxa de agendamento. Assim, nenhum paciente interessado se perde no processo."
+            question: "O que significa Growth e Neuro Marketing na prática?",
+            answer: "Growth é crescimento orientado por dados, testes e melhoria contínua. Neuro Marketing aplica princípios de comportamento e tomada de decisão para aumentar atenção, confiança e conversão. Unimos os dois para gerar resultado real."
         },
         {
-            question: "Vocês trabalham com automação de WhatsApp e e-mail?",
-            answer: "Sim. Criamos automações para nutrir leads, reativar pacientes e acompanhar contatos automaticamente, aumentando as chances de conversão e preenchendo sua agenda."
+            question: "Vocês trabalham com automação e CRM?",
+            answer: "Sim. Implementamos processos para organizar leads, acompanhar oportunidades, automatizar contatos e reduzir perdas comerciais. Isso ajuda sua empresa a vender melhor e com mais previsibilidade."
         },
         {
             question: "Como funciona o processo de trabalho?",
-            answer: "Primeiro analisamos sua clínica e identificamos oportunidades. Depois estruturamos anúncios, páginas, CRM e automações. Acompanhamos tudo de perto, otimizando continuamente para aumentar os agendamentos."
+            answer: "Primeiro analisamos seu cenário atual. Depois identificamos gargalos e oportunidades. Em seguida, definimos plano estratégico, implementação e acompanhamento contínuo com foco em crescimento sustentável."
         },
         {
             question: "Como funciona a consultoria gratuita?",
-            answer: "Você agenda um horário e fala com um especialista. Analisamos sua clínica, mostramos onde estão os gargalos e apresentamos um plano claro para atrair mais pacientes e maximizar seus agendamentos."
+            answer: "Você agenda um horário com nosso time. Avaliamos sua presença digital, captação, posicionamento e possíveis travas de crescimento. Ao final, mostramos oportunidades claras para sua clínica ou escritório evoluir."
         }
     ];
 
@@ -52,7 +52,7 @@ export default function Faq() {
                 <Title
                     title="FAQ"
                     heading="Dúvidas antes de começar?"
-                    description="Entenda como ajudamos clínicas a atrair pacientes, automatizar processos e aumentar o número de agendamentos."
+                    description="Entenda como ajudamos clínicas e escritórios a atrair clientes, estruturar processos e crescer com previsibilidade."
                 />
 
                 <div className="space-y-3">
