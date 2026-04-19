@@ -64,7 +64,7 @@ export default function Pricing() {
 
         <Title
           title="Como podemos ajudar?"
-          heading="Soluções pensadas para acelerar seu crescimento"
+          heading="Pensado para acelerar seu crescimento"
           description="Estratégia, execução e suporte para clínicas e escritórios que querem crescer de forma inteligente."
         />
 
