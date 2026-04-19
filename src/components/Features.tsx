@@ -9,18 +9,18 @@ export default function Features() {
     const features = [
         {
             icon: <Megaphone className="size-5 text-indigo-400" />,
-            title: "Anúncios On-line para Clínicas",
-            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair pacientes qualificados e aumentar sua agenda."
+            title: "Anúncios On-line para Clínicas e Escritórios",
+            desc: "Planejamos, executamos e otimizamos campanhas no Google, Meta e TikTok para atrair clientes qualificados, aumentar agendamentos e gerar novas oportunidades."
         },
         {
             icon: <ShoppingCart className="size-5 text-indigo-400" />,
-            title: "Consultoria para Clínicas",
-            desc: "Estruturamos sua clínica com estratégias de marketing, posicionamento e captação para gerar crescimento consistente."
+            title: "Consultoria Estratégica",
+            desc: "Estruturamos clínicas e escritórios com estratégias de marketing, posicionamento e captação para gerar crescimento previsível e consistente."
         },
         {
             icon: <Instagram className="size-5 text-indigo-400" />,
-            title: "Social Media para Clínicas",
-            desc: "Gerenciamos suas redes sociais com conteúdo estratégico para gerar autoridade, confiança e novos agendamentos."
+            title: "Social Media para Clínicas e Escritórios",
+            desc: "Gerenciamos suas redes sociais com conteúdo estratégico para gerar autoridade, confiança e novos contatos todos os meses."
         }
     ];
 
@@ -30,8 +30,8 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="Tudo que sua clínica precisa"
-                    description="Tráfego, conteúdo e estratégia trabalhando juntos para atrair pacientes, gerar autoridade e aumentar seu faturamento."
+                    heading="Tudo que clínicas e escritórios precisam para crescer"
+                    description="Tráfego, conteúdo e estratégia trabalhando juntos para atrair clientes, fortalecer sua autoridade e aumentar seu faturamento."
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
