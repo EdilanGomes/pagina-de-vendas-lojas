@@ -30,7 +30,7 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="Marketing para Clínicas e Escritórios"
+                    heading="Marketing & Desenvolvimento"
                     description="Estratégia, aquisição e posicionamento trabalhando juntos para gerar crescimento previsível, autoridade e mais clientes."
                 />
 
