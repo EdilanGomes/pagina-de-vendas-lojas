@@ -22,7 +22,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70 }}
             >
-              Está perdendo oportunidades todos os dias?
+              Está perdendo oportunidades?
             </motion.h2>
 
             <motion.p
