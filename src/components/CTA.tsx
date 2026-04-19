@@ -70,7 +70,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
             >
-              Sem compromisso • 100% gratuito • Consultoria aplicável
+              Sem compromisso • 100% gratuito • Consultoria
             </motion.p>
 
           </div>

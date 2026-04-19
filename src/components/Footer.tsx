@@ -15,7 +15,7 @@ export default function Footer() {
                     <div>
                         <img src='/logo.png' alt="logo" className="h-20" />
                         <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
-                            Mais do que prestar um serviço, vestimos a camisa do seu negócio. Trabalhamos lado a lado com você para gerar crescimento, aumentar resultados e construir uma operação sólida para sua clínica, escritório ou consultório.
+                            Mais do que prestar um serviço, vestimos a camisa do seu negócio. Trabalhamos lado a lado com você para gerar crescimento, aumentar resultados e construir uma operação sólida para sua empresa.
                         </p>
                     </div>
 
