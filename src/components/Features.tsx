@@ -30,7 +30,7 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="Especialistas em Growth e Neuro Marketing para Clínicas e Escritórios"
+                    heading="Marketing para Clínicas e Escritórios"
                     description="Estratégia, aquisição e posicionamento trabalhando juntos para gerar crescimento previsível, autoridade e mais clientes."
                 />
 
