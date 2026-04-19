@@ -19,15 +19,15 @@ const galleryStripImages = [
 ];
 
 const trustedLogos = [
-"/softwares/nuvem.png",
-"/softwares/metaads.png",
-"/softwares/googleads.png",
-"/softwares/rd.png",
-"/softwares/edrone.png",
-"/softwares/melhorenvio.png",
-"/softwares/bling.png",
-"/softwares/hostgatir.png",
-"/softwares/tiktokads.png"
+  "/softwares/googleads.png",
+  "/softwares/metaads.png",
+  "/softwares/tiktokads.png",
+  "/softwares/rd.png",
+  "/softwares/nuvem.png",
+  "/softwares/edrone.png",
+  "/softwares/melhorenvio.png",
+  "/softwares/bling.png",
+  "/softwares/hostgatir.png"
 ];
 
 return (
