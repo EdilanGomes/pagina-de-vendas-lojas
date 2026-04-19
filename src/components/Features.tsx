@@ -30,7 +30,7 @@ export default function Features() {
 
                 <Title
                     title="Serviços"
-                    heading="Tudo que clínicas e escritórios precisam para crescer"
+                    heading="Clínicas e escritórios precisam para crescer"
                     description="Tráfego, conteúdo e estratégia trabalhando juntos para atrair clientes, fortalecer sua autoridade e aumentar seu faturamento."
                 />
 
