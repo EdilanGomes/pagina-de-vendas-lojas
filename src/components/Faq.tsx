@@ -52,7 +52,7 @@ export default function Faq() {
                 <Title
                     title="FAQ"
                     heading="Dúvidas antes de começar?"
-                    description="Entenda como ajudamos clínicas e escritórios a atrair clientes, estruturar processos e crescer com previsibilidade."
+                    description="Essas são as dúvidas mais comuns que recebemos de clínicas e escritórios interessados em crescer."
                 />
 
                 <div className="space-y-3">
