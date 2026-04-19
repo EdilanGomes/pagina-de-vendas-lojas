@@ -3,7 +3,7 @@ import { GhostButton } from './Buttons';
 import { motion } from 'framer-motion';
 
 const WHATSAPP_LINK =
-  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20quero%20atrair%20mais%20pacientes%20e%20aumentar%20meus%20agendamentos.";
+  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20ou%20escrit%C3%B3rio%20e%20quero%20entender%20como%20atrair%20mais%20clientes%20com%20estrat%C3%A9gia.";
 
 export default function CTA() {
   return (
@@ -22,7 +22,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ type: "spring", stiffness: 250, damping: 70 }}
             >
-              Sua clínica está perdendo pacientes todos os dias?
+              Está perdendo oportunidades todos os dias?
             </motion.h2>
 
             <motion.p
@@ -37,7 +37,7 @@ export default function CTA() {
                 delay: 0.2,
               }}
             >
-              Descubra onde estão os erros, como atrair mais pacientes, aumentar seus agendamentos e criar um crescimento previsível com anúncios e estrutura.
+              Descubra onde estão os gargalos, como atrair mais clientes, gerar mais agendamentos e crescer com previsibilidade usando estratégia e execução.
             </motion.p>
 
             <motion.div
@@ -58,7 +58,7 @@ export default function CTA() {
                 className="inline-block"
               >
                 <GhostButton className="px-8 py-3 gap-2 text-base">
-                  Quero atrair mais pacientes <ArrowRightIcon size={20} />
+                  Quero atrair mais clientes <ArrowRightIcon size={20} />
                 </GhostButton>
               </a>
             </motion.div>
@@ -70,7 +70,7 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
             >
-              Sem compromisso • 100% gratuito • Aplicável
+              Sem compromisso • 100% gratuito • Consultoria aplicável
             </motion.p>
 
           </div>
