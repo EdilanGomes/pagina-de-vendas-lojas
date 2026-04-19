@@ -5,43 +5,43 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 const WHATSAPP_LINK =
-  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20e%20quero%20atrair%20mais%20pacientes%20e%20melhorar%20meus%20agendamentos.";
+  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20ou%20escrit%C3%B3rio%20e%20quero%20entender%20como%20posso%20crescer%20com%20mais%20clientes.";
 
 export default function Pricing() {
   const refs = useRef<(HTMLDivElement | null)[]>([]);
 
   const services = [
     {
-      name: "Tráfego Pago",
-      desc: "Atraímos pacientes todos os dias para sua clínica através de anúncios online.",
+      name: "Growth Performance",
+      desc: "Criamos campanhas focadas em gerar demanda qualificada para clínicas e escritórios com crescimento previsível.",
       features: [
-        "Estratégia focada em gerar pacientes e agendamentos",
-        "Campanhas no Google, Instagram e Facebook",
-        "Otimizações constantes para reduzir custo por lead",
-        "Escala dos anúncios conforme os resultados crescem",
-        "Relatórios simples e acompanhamento próximo"
+        "Estratégia personalizada para seu mercado",
+        "Campanhas no Google, Meta e canais estratégicos",
+        "Otimizações constantes baseadas em dados",
+        "Escala conforme performance e retorno",
+        "Acompanhamento próximo e visão clara dos resultados"
       ]
     },
     {
-      name: "Social Media",
-      desc: "Transformamos seu Instagram em uma máquina de gerar autoridade e novos pacientes.",
+      name: "Social Media Estratégico",
+      desc: "Transformamos sua presença digital em autoridade, confiança e geração contínua de oportunidades.",
       features: [
-        "Planejamento de conteúdo estratégico para clínicas",
-        "Postagens que geram confiança e interesse",
-        "Organização do perfil para transmitir profissionalismo",
-        "Conteúdos que ajudam o paciente a decidir",
-        "Crescimento e fortalecimento da sua marca"
+        "Planejamento de conteúdo com foco em posicionamento",
+        "Posts que despertam interesse e credibilidade",
+        "Organização visual do perfil",
+        "Comunicação pensada para decisão de compra",
+        "Fortalecimento da marca no digital"
       ]
     },
     {
       name: "Estrutura e Conversão",
-      desc: "Criamos toda a estrutura para transformar interesse em agendamentos.",
+      desc: "Organizamos toda a jornada para transformar visitas e contatos em clientes reais.",
       features: [
-        "Criação de site ou página de captura rápida",
-        "Integração com WhatsApp e ferramentas de atendimento",
-        "Implementação e treinamento de CRM",
-        "Automação de mensagens e follow-up de pacientes",
-        "Organização do processo para não perder leads"
+        "Criação de site ou páginas de alta conversão",
+        "Integração com WhatsApp e atendimento",
+        "Implementação de CRM comercial",
+        "Automação de follow-up e recuperação de leads",
+        "Processos para reduzir perdas de oportunidade"
       ]
     }
   ];
@@ -64,8 +64,8 @@ export default function Pricing() {
 
         <Title
           title="Como podemos ajudar?"
-          heading="Para crescer e lotar a sua agenda"
-          description="Aqui você encontra estratégia, execução e suporte para atrair pacientes e aumentar agendamentos."
+          heading="Soluções pensadas para acelerar seu crescimento"
+          description="Estratégia, execução e suporte para clínicas e escritórios que querem crescer de forma inteligente."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -128,8 +128,8 @@ export default function Pricing() {
         {/* TEXTO FINAL */}
         <div className="text-center mt-12 max-w-xl mx-auto">
           <p className="text-sm text-gray-400 leading-relaxed">
-            Não importa se você está começando ou quer escalar! Na consultoria gratuita,
-            mostramos exatamente o que sua clínica precisa para atrair mais pacientes.
+            Não importa se você está começando ou quer escalar. Na consultoria gratuita,
+            mostramos oportunidades reais para sua clínica ou escritório crescer com mais previsibilidade.
           </p>
         </div>
 
