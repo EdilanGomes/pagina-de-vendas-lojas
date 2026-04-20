@@ -14,7 +14,7 @@ export default function Features() {
     {
       icon: <Megaphone className="size-5 text-indigo-400" />,
       title: "Tráfego Pago para Gerar Clientes",
-      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook ads para atrair pessoas interessadas no seu serviço ou produto."
+      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook Ads para atrair pessoas interessadas no seu serviço ou produto."
     },
     {
       icon: <ShoppingCart className="size-5 text-indigo-400" />,
