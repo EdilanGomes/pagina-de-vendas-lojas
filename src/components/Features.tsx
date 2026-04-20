@@ -83,6 +83,33 @@ export default function Features() {
           ))}
         </div>
 
+        {/* CASE DE SUCESSO */}
+        <div className="mt-16 md:mt-20">
+          <div className="text-center max-w-3xl mx-auto mb-8">
+            <span className="text-sm text-indigo-400 font-medium uppercase tracking-wider">
+              Case de Sucesso
+            </span>
+
+            <h3 className="text-2xl md:text-3xl font-bold mt-3 mb-4">
+              Confira um dos nossos resultados reais
+            </h3>
+
+            <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+              Atuamos no ramo farmacêutico B2B reorganizando o comercial,
+              melhorando processos de vendas, re-vendas e acelerando a geração
+              de oportunidades com estratégia e execução.
+            </p>
+          </div>
+
+          <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 shadow-2xl">
+            <img
+              src="/metabatida.png"
+              alt="Case de sucesso no segmento farmacêutico B2B"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
       </div>
     </section>
   );
