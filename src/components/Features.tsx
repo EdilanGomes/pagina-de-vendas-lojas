@@ -35,7 +35,7 @@ export default function Features() {
         <Title
           title="Serviços"
           heading="O que fazemos para gerar crescimento"
-          description="Unimos marketing, vendas e posicionamento para atrair clientes, aumentar conversões e fortalecer sua marca no digital."
+          description="Unimos marketing, vendas e posicionamento para atrair clientes, aumentar conversões e fortalecer sua empresa."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -97,7 +97,7 @@ export default function Features() {
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
               Atuamos no ramo farmacêutico B2B reorganizando o comercial,
               melhorando processos de vendas, re-vendas e acelerando a geração
-              de oportunidades com estratégia e execução.
+              de oportunidades.
             </p>
           </div>
 
