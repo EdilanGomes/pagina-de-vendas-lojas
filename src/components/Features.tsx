@@ -14,12 +14,12 @@ export default function Features() {
     {
       icon: <Megaphone className="size-5 text-indigo-400" />,
       title: "Tráfego Pago para Gerar Clientes",
-      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook para atrair pessoas interessadas no seu serviço ou produto."
+      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook ads para atrair pessoas interessadas no seu serviço ou produto."
     },
     {
       icon: <ShoppingCart className="size-5 text-indigo-400" />,
       title: "Consultoria Comercial e Estratégica",
-      desc: "Analisamos seu processo de vendas, atendimento e oferta comercial para identificar gargalos e aumentar conversões, ticket médio e fechamentos."
+      desc: "Analisamos seu processo de vendas, atendimento e oferta comercial para identificar gargalos, aumentar conversões e ticket médio."
     },
     {
       icon: <Instagram className="size-5 text-indigo-400" />,
