@@ -94,7 +94,7 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Reestruturamos marketing e comercial de empresas para gerar mais oportunidades, aumentar vendas e escalar resultados.
+              Reestruturamos marketing e comercial de empresas para gerar mais oportunidades.
             </p>
           </div>
 
