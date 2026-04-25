@@ -5,43 +5,43 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 const WHATSAPP_LINK =
-  "https://wa.me/5547920014973?text=Ol%C3%A1!%20Tenho%20uma%20cl%C3%ADnica%20ou%20escrit%C3%B3rio%20e%20quero%20entender%20como%20posso%20crescer%20com%20mais%20clientes.";
+  "https://wa.me/5547920014973?text=Olá! Quero entender como minha empresa pode crescer com mais clientes e estratégia.";
 
 export default function Pricing() {
   const refs = useRef<(HTMLDivElement | null)[]>([]);
 
   const services = [
     {
-      name: "Growth Performance",
-      desc: "Criamos campanhas focadas em gerar demanda qualificada para clínicas e escritórios com crescimento previsível.",
+      name: "Tráfego pago | anúncios",
+      desc: "Campanhas estratégicas para gerar demanda qualificada e aumentar oportunidades de venda.",
       features: [
         "Estratégia personalizada para seu mercado",
-        "Campanhas no Google, Meta e canais estratégicos",
-        "Otimizações constantes baseadas em dados",
-        "Escala conforme performance e retorno",
-        "Acompanhamento próximo e visão clara dos resultados"
+        "Anúncios no Google, Meta e canais ideais",
+        "Otimizações semanais baseadas em dados",
+        "Escala conforme retorno obtido",
+        "Relatórios claros e acompanhamento próximo"
       ]
     },
     {
-      name: "Social Media Estratégico",
-      desc: "Transformamos sua presença digital em autoridade, confiança e geração contínua de oportunidades.",
+      name: "Gestão de redes sociais",
+      desc: "Fortalecemos sua marca com conteúdo estratégico que gera confiança e interesse.",
       features: [
-        "Planejamento de conteúdo com foco em posicionamento",
-        "Posts que despertam interesse e credibilidade",
-        "Organização visual do perfil",
-        "Comunicação pensada para decisão de compra",
-        "Fortalecimento da marca no digital"
+        "Planejamento mensal de conteúdo",
+        "Posts com foco em autoridade",
+        "Perfil profissional e atrativo",
+        "Comunicação voltada para conversão",
+        "Presença digital forte e consistente"
       ]
     },
     {
-      name: "Estrutura e Conversão",
-      desc: "Organizamos toda a jornada para transformar visitas e contatos em clientes.",
+      name: "Estrutura para converter",
+      desc: "Organizamos processos e canais para transformar contatos em clientes reais.",
       features: [
-        "Criação de site ou páginas de alta conversão",
-        "Integração com WhatsApp e atendimento",
-        "Implementação de CRM comercial",
-        "Automação de follow-up e recuperação de leads",
-        "Processos para reduzir perdas de oportunidade"
+        "Site ou páginas de alta conversão",
+        "Integração com WhatsApp",
+        "CRM comercial organizado",
+        "Automação de follow-up",
+        "Redução de perdas no atendimento"
       ]
     }
   ];
@@ -63,9 +63,9 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto px-4">
 
         <Title
-          title="Como podemos ajudar?"
-          heading="Pensado para acelerar seu crescimento"
-          description="Estratégia, execução e suporte para clínicas e escritórios que querem crescer de forma inteligente."
+          title="Soluções"
+          heading="O que sua empresa precisa para crescer"
+          description="Estratégia, execução e estrutura para atrair clientes, vender mais e escalar resultados."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -92,16 +92,15 @@ export default function Pricing() {
               }}
               className="relative p-6 rounded-xl border border-white/8 bg-indigo-950/30 backdrop-blur"
             >
-
               <div className="mb-6">
                 <h3 className="text-lg font-semibold mb-2">{service.name}</h3>
                 <p className="text-sm text-gray-300 leading-relaxed">{service.desc}</p>
               </div>
 
               <ul className="space-y-3 mb-6">
-                {services[i].features.map((feat, i) => (
+                {service.features.map((feat, index) => (
                   <li
-                    key={i}
+                    key={index}
                     className="flex items-start gap-3 text-sm text-gray-300 leading-relaxed"
                   >
                     <Check className="w-4 h-4 text-indigo-400 mt-[3px]" />
@@ -117,35 +116,29 @@ export default function Pricing() {
                 className="block"
               >
                 <GhostButton className="w-full justify-center">
-                  Agendar diagnóstico gratuito
+                  Solicitar diagnóstico gratuito
                 </GhostButton>
               </a>
-
             </motion.div>
           ))}
         </div>
 
-        {/* TEXTO FINAL */}
         <div className="text-center mt-12 max-w-xl mx-auto">
           <p className="text-sm text-gray-400 leading-relaxed">
-            Não importa se você está começando ou quer escalar. Na consultoria gratuita,
-            mostramos oportunidades reais para sua clínica ou escritório crescer com mais previsibilidade.
+            Seja para organizar sua operação ou escalar resultados, mostramos oportunidades reais para sua empresa crescer com previsibilidade.
           </p>
         </div>
 
       </div>
 
-      {/* LOGOS CARROSSEL */}
       <div className="border-y border-white/10 mt-16 py-8 overflow-hidden">
         <div className="max-w-6xl mx-auto">
-
           <div
             className="flex gap-6 w-max"
             style={{
               animation: "scrollLogos 18s linear infinite"
             }}
           >
-
             {[...trustedLogos, ...trustedLogos].map((logo, index) => (
               <img
                 key={index}
@@ -154,9 +147,7 @@ export default function Pricing() {
                 className="h-8 md:h-10 object-contain opacity-70 hover:opacity-100 transition"
               />
             ))}
-
           </div>
-
         </div>
 
         <style>
@@ -168,7 +159,6 @@ export default function Pricing() {
           `}
         </style>
       </div>
-
     </section>
   );
 }
