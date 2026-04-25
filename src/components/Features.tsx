@@ -14,12 +14,12 @@ export default function Features() {
     {
       icon: <Megaphone className="size-5 text-indigo-400" />,
       title: "Tráfego pago para gerar clientes",
-      desc: "Criamos campanhas estratégicas no Google, Instagram e Facebook para atrair pessoas prontas para comprar."
+      desc: "Criamos campanhas estratégicas no Google, Instagram e Facebook para atrair pessoas prontas para comprar ou contratar."
     },
     {
       icon: <ShoppingCart className="size-5 text-indigo-400" />,
       title: "Consultoria comercial e estratégica",
-      desc: "Ajustamos vendas, atendimento e oferta comercial para aumentar conversão e faturamento."
+      desc: "Ajustamos vendas, atendimento e oferta comercial para aumentar conversão, faturamento e recorrência."
     },
     {
       icon: <Instagram className="size-5 text-indigo-400" />,
