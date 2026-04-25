@@ -62,14 +62,14 @@ className="w-6 h-6 rounded-full border border-black"
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Organize seu marketing e{" "}
+Transforme o marketing da{" "}
 
 <span className="block">
-comece a gerar demanda em
+sua empresa em crescimento previsível
 </span>
 
 <span className="block text-indigo-400">
-menos de 60 dias.
+previsível em até 60 dias.
 </span>
 
 </h1>
