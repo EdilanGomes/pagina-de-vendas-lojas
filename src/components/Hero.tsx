@@ -62,14 +62,14 @@ className="w-6 h-6 rounded-full border border-black"
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Marketing que faz sua{" "}
+Marketing estratégico que faz{" "}
 
 <span className="block">
-empresa crescer em
+sua empresa crescer
 </span>
 
 <span className="block text-indigo-400">
-até 60 dias.
+em até 60 dias.
 </span>
 
 </h1>
