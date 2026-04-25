@@ -55,17 +55,17 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-+300 clínicas e escritórios atendidos com sucesso
++300 empresas atendidas com foco em crescimento
 </span>
 
 </div>
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Mais clientes para{" "}
+Marketing completo para{" "}
 
 <span className="block">
-clínicas e escritórios direto no WhatsApp.
+empresas que precisam vender mais.
 </span>
 
 <span className="block text-indigo-400">
@@ -75,7 +75,7 @@ Estratégia e execução.
 </h1>
 
 <p className="text-gray-300 mb-8 max-w-lg text-sm sm:text-base leading-relaxed">
-Existe um padrão por trás das clínicas e escritórios que crescem com previsibilidade. Ao longo desta página, você vai entender como aplicar isso no seu negócio.
+Tráfego pago, redes sociais, sites, landing pages e estrutura comercial para atrair clientes, gerar oportunidades e acelerar resultados.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -107,7 +107,7 @@ Agendar diagnóstico gratuito
 <ZapIcon className="size-4 text-sky-500" />
 
 <div>
-<div>Estratégia para clínicas e escritórios</div>
+<div>Estratégia para empresas</div>
 <div className="text-xs text-gray-400">
 Captação de clientes e posicionamento
 </div>
