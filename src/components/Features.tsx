@@ -34,7 +34,7 @@ export default function Features() {
 
         <Title
           title="Serviços"
-          heading="O que fazemos para fazer sua empresa crescer em até 60 dias"
+          heading="Para sua empresa crescer em até 60 dias"
           description="Unimos marketing, vendas e posicionamento para atrair clientes, vender mais e gerar crescimento previsível."
         />
 
