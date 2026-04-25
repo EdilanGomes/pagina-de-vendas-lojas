@@ -12,7 +12,7 @@ export default function Pricing() {
 
   const services = [
     {
-      name: "Tráfego pago | anúncios",
+      name: "Tráfego Pago | Anúncios",
       desc: "Campanhas estratégicas para gerar demanda qualificada e aumentar oportunidades de venda.",
       features: [
         "Estratégia personalizada",
@@ -23,7 +23,7 @@ export default function Pricing() {
       ]
     },
     {
-      name: "Gestão de redes sociais",
+      name: "Gestão de Redes Sociais",
       desc: "Fortalecemos sua marca com conteúdo estratégico que gera confiança e interesse.",
       features: [
         "Planejamento mensal de conteúdo",
@@ -34,7 +34,7 @@ export default function Pricing() {
       ]
     },
     {
-      name: "Estrutura para converter",
+      name: "Estrutura para Converter",
       desc: "Organizamos processos e canais para transformar contatos em clientes reais.",
       features: [
         "Site ou páginas de alta conversão",
