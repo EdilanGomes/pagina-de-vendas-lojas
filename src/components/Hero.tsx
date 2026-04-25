@@ -62,10 +62,10 @@ className="w-6 h-6 rounded-full border border-black"
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Marketing estratégico que faz{" "}
+Marketing estratégico{" "}
 
 <span className="block">
-sua empresa crescer
+Pata sua empresa crescer
 </span>
 
 <span className="block text-indigo-400">
