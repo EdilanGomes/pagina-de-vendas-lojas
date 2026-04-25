@@ -62,14 +62,14 @@ className="w-6 h-6 rounded-full border border-black"
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Marketing digital para{" "}
+Organize seu marketing e{" "}
 
 <span className="block">
-empresas que precisam vender mais.
+comece a gerar demanda em
 </span>
 
 <span className="block text-indigo-400">
-Estratégia e execução.
+menos de 60 dias.
 </span>
 
 </h1>
