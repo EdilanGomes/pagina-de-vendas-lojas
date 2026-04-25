@@ -23,7 +23,7 @@ export default function Features() {
     },
     {
       icon: <Instagram className="size-5 text-indigo-400" />,
-      title: "Social Media que Gera Autoridade",
+      title: "Social Media que gera atoridade",
       desc: "Conteúdo estratégico para fortalecer sua marca, gerar confiança e aumentar demanda."
     }
   ];
