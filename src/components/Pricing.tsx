@@ -15,11 +15,11 @@ export default function Pricing() {
       name: "Tráfego pago | anúncios",
       desc: "Campanhas estratégicas para gerar demanda qualificada e aumentar oportunidades de venda.",
       features: [
-        "Estratégia personalizada para seu mercado",
-        "Anúncios no Google, Meta e canais ideais",
-        "Otimizações semanais baseadas em dados",
-        "Escala conforme retorno obtido",
-        "Relatórios claros e acompanhamento próximo"
+        "Estratégia personalizada",
+        "Anúncios no Google & Meta",
+        "Otimizações semanais",
+        "Escala conforme retorno",
+        "Relatórios claros e acompanhamento"
       ]
     },
     {
