@@ -14,17 +14,17 @@ export default function Features() {
     {
       icon: <Megaphone className="size-5 text-indigo-400" />,
       title: "Tráfego Pago para Gerar Clientes",
-      desc: "Criamos e gerenciamos anúncios no Google Ads, Instagram e Facebook Ads para atrair pessoas interessadas no seu serviço ou produto."
+      desc: "Criamos campanhas estratégicas no Google, Instagram e Facebook para atrair pessoas prontas para comprar."
     },
     {
       icon: <ShoppingCart className="size-5 text-indigo-400" />,
       title: "Consultoria Comercial e Estratégica",
-      desc: "Analisamos seu processo de vendas, atendimento e oferta comercial para identificar gargalos, aumentar conversões e ticket médio."
+      desc: "Ajustamos vendas, atendimento e oferta comercial para aumentar conversão e faturamento."
     },
     {
       icon: <Instagram className="size-5 text-indigo-400" />,
       title: "Social Media que Gera Autoridade",
-      desc: "Planejamos conteúdos estratégicos para Instagram e redes sociais, fortalecendo sua marca e aumentando confiança."
+      desc: "Conteúdo estratégico para fortalecer sua marca, gerar confiança e aumentar demanda."
     }
   ];
 
@@ -34,8 +34,8 @@ export default function Features() {
 
         <Title
           title="Serviços"
-          heading="O que fazemos para gerar crescimento"
-          description="Unimos marketing, vendas e posicionamento para atrair clientes, aumentar conversões e fortalecer sua empresa."
+          heading="O que fazemos para fazer sua empresa crescer em até 60 dias"
+          description="Unimos marketing, vendas e posicionamento para atrair clientes, vender mais e gerar crescimento previsível."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -83,7 +83,6 @@ export default function Features() {
           ))}
         </div>
 
-        {/* CASE DE SUCESSO */}
         <div className="mt-16 md:mt-20">
           <div className="text-center max-w-3xl mx-auto mb-8">
             <span className="text-sm text-indigo-400 font-medium uppercase tracking-wider">
@@ -95,16 +94,14 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Atuamos no ramo farmacêutico B2B reorganizando o comercial,
-              melhorando processos de vendas, re-vendas e acelerando a geração
-              de oportunidades.
+              Reestruturamos marketing e comercial de empresas para gerar mais oportunidades, aumentar vendas e escalar resultados.
             </p>
           </div>
 
           <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 shadow-2xl">
             <img
               src="/metabatida.png"
-              alt="Case de sucesso no segmento farmacêutico B2B"
+              alt="Case de sucesso"
               className="w-full h-full object-cover"
             />
           </div>
