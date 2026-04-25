@@ -62,7 +62,7 @@ className="w-6 h-6 rounded-full border border-black"
 
 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 max-w-lg md:max-w-xl leading-[1.15]">
 
-Marketing completo para{" "}
+Marketing para{" "}
 
 <span className="block">
 empresas que precisam vender mais.
