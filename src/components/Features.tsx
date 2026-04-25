@@ -13,17 +13,17 @@ export default function Features() {
   const features = [
     {
       icon: <Megaphone className="size-5 text-indigo-400" />,
-      title: "Tráfego Pago para Gerar Clientes",
+      title: "Tráfego pago para gerar clientes",
       desc: "Criamos campanhas estratégicas no Google, Instagram e Facebook para atrair pessoas prontas para comprar."
     },
     {
       icon: <ShoppingCart className="size-5 text-indigo-400" />,
-      title: "Consultoria Comercial e Estratégica",
+      title: "Consultoria comercial e estratégica",
       desc: "Ajustamos vendas, atendimento e oferta comercial para aumentar conversão e faturamento."
     },
     {
       icon: <Instagram className="size-5 text-indigo-400" />,
-      title: "Social Media que gera atoridade",
+      title: "Social media que gera autoridade",
       desc: "Conteúdo estratégico para fortalecer sua marca, gerar confiança e aumentar demanda."
     }
   ];
