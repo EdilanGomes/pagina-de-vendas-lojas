@@ -55,7 +55,7 @@ className="w-6 h-6 rounded-full border border-black"
 </div>
 
 <span className="text-xs text-gray-200">
-+300 empresas atendidas com foco em crescimento
+Especialistas em Ads e desenvolvimento
 </span>
 
 </div>
