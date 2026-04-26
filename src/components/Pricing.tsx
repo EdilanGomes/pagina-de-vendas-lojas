@@ -116,7 +116,7 @@ export default function Pricing() {
                 className="block"
               >
                 <GhostButton className="w-full justify-center">
-                  Solicitar diagnóstico gratuito
+                  Saiba mais
                 </GhostButton>
               </a>
             </motion.div>
