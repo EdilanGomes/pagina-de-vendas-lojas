@@ -64,7 +64,7 @@ export default function Pricing() {
 
         <Title
           title="Soluções"
-          heading="O que sua empresa precisa para crescer"
+          heading="Como podemos ajudar?"
           description="Estratégia, execução e estrutura para atrair clientes, vender mais e escalar resultados."
         />
 
