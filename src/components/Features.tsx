@@ -94,7 +94,7 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Unimos marketing e comercial para empresas gerar mais oportunidades.
+              De comercial zerado a 768 clientes em potencial em 28 dias com marketing estratégico e estrutura comercial, gerando mais oportunidades, organização e vendas previsíveis.
             </p>
           </div>
 
