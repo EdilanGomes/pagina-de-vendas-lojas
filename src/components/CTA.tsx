@@ -58,7 +58,7 @@ export default function CTA() {
                 className="inline-block"
               >
                 <GhostButton className="px-8 py-3 gap-2 text-base">
-                  Quero crescer minha empresa <ArrowRightIcon size={20} />
+                  Saiba mais <ArrowRightIcon size={20} />
                 </GhostButton>
               </a>
             </motion.div>
