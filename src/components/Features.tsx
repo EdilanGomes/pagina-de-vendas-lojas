@@ -94,7 +94,7 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              De comercial zerado a 768 clientes em potencial em 28 dias com marketing estratégico e estrutura comercial, gerando mais oportunidades, organização e vendas previsíveis.
+              De comercial zerado a 768 clientes em potencial em 28 dias com marketing estratégico e estrutura comercial, gerando mais oportunidades, organização e vendas.
             </p>
           </div>
 
