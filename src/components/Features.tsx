@@ -34,7 +34,7 @@ export default function Features() {
 
         <Title
           title="Serviços"
-          heading="Para sua empresa crescer em até 60 dias"
+          heading="Para sua empresa crescer"
           description="Unimos marketing, vendas e posicionamento para atrair clientes, vender mais e gerar crescimento previsível."
         />
 
@@ -94,7 +94,7 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Reestruturamos marketing e comercial de empresas para gerar mais oportunidades.
+              Unimos marketing e comercial para empresas gerar mais oportunidades.
             </p>
           </div>
 

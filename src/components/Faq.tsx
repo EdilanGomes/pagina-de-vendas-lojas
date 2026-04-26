@@ -52,7 +52,7 @@ export default function Faq() {
         <Title
           title="FAQ"
           heading="Dúvidas antes de começar?"
-          description="Respondemos as perguntas mais comuns de empresas que querem crescer com estratégia."
+          description="As perguntas mais comuns de empresas que querem crescer com estratégia."
         />
 
         <div className="space-y-3">
