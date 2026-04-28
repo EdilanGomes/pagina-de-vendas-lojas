@@ -114,18 +114,18 @@ export default function Features() {
         <div className="mt-16 md:mt-20">
 
           <div className="text-center max-w-3xl mx-auto mb-8">
-            <span className="text-sm text-indigo-400 font-medium uppercase tracking-wider">
-              Resultados em Vídeo
-            </span>
+          <span className="text-sm text-indigo-400 font-medium uppercase tracking-wider">
+            Sua realidade hoje
+          </span>
 
-            <h3 className="text-2xl md:text-3xl font-bold mt-3 mb-4">
-              Veja alguns reels e conteúdos reais
-            </h3>
+          <h3 className="text-2xl md:text-3xl font-bold mt-3 mb-4">
+            Você enfrenta algum desses problemas no seu negócio?
+          </h3>
 
-            <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Clique para assistir. Os vídeos não iniciam automaticamente.
-            </p>
-          </div>
+          <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+            Assista aos vídeos e veja situações comuns que impedem empresas de crescer, vender mais e atrair clientes todos os meses.
+          </p>
+        </div>
 
           <div className="relative">
 
