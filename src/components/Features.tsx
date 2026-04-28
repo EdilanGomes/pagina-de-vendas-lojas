@@ -33,10 +33,10 @@ export default function Features() {
     }
   ];
 
- const videos = [
-  "/videosite1.mp4",
-  "/videosite2.mp4"
-];
+  const videos = [
+    "/videosite1.mp4",
+    "/videosite2.mp4"
+  ];
 
   function scrollLeft() {
     sliderRef.current?.scrollBy({
@@ -51,6 +51,8 @@ export default function Features() {
       behavior: "smooth"
     });
   }
+
+  const fewVideos = videos.length <= 2;
 
   return (
     <section id="features" className="py-20 2xl:py-32">
@@ -108,7 +110,7 @@ export default function Features() {
           ))}
         </div>
 
-        {/* CARROSSEL DE VÍDEOS */}
+        {/* VÍDEOS */}
         <div className="mt-16 md:mt-20">
 
           <div className="text-center max-w-3xl mx-auto mb-8">
@@ -127,34 +129,45 @@ export default function Features() {
 
           <div className="relative">
 
-            {/* BOTÃO ESQUERDA */}
-            <button
-              onClick={scrollLeft}
-              className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/60 border border-white/10 items-center justify-center hover:bg-black/80"
-            >
-              <ChevronLeft size={20} />
-            </button>
+            {/* setas só aparecem se tiver mais de 2 */}
+            {videos.length > 2 && (
+              <>
+                <button
+                  onClick={scrollLeft}
+                  className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/60 border border-white/10 items-center justify-center hover:bg-black/80"
+                >
+                  <ChevronLeft size={20} />
+                </button>
 
-            {/* BOTÃO DIREITA */}
-            <button
-              onClick={scrollRight}
-              className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/60 border border-white/10 items-center justify-center hover:bg-black/80"
-            >
-              <ChevronRight size={20} />
-            </button>
+                <button
+                  onClick={scrollRight}
+                  className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/60 border border-white/10 items-center justify-center hover:bg-black/80"
+                >
+                  <ChevronRight size={20} />
+                </button>
+              </>
+            )}
 
-            {/* LISTA */}
             <div
               ref={sliderRef}
-              className="flex gap-5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 no-scrollbar"
+              className={`flex gap-5 pb-2 no-scrollbar ${
+                fewVideos
+                  ? "justify-center flex-wrap overflow-hidden"
+                  : "overflow-x-auto scroll-smooth snap-x snap-mandatory"
+              }`}
             >
               {videos.map((video, i) => (
                 <div
                   key={i}
-                  className="min-w-[85%] sm:min-w-[48%] lg:min-w-[31%] snap-start rounded-2xl overflow-hidden border border-white/10 bg-white/5 relative"
+                  className={`
+                    rounded-2xl overflow-hidden border border-white/10 bg-white/5 relative
+                    ${fewVideos
+                      ? "w-full sm:w-[48%] lg:w-[31%]"
+                      : "min-w-[85%] sm:min-w-[48%] lg:min-w-[31%] snap-start"
+                    }
+                  `}
                 >
 
-                  {/* PLAY OVERLAY */}
                   {playingIndex !== i && (
                     <button
                       onClick={() => setPlayingIndex(i)}
@@ -166,7 +179,6 @@ export default function Features() {
                     </button>
                   )}
 
-                  {/* VIDEO */}
                   <video
                     controls={playingIndex === i}
                     playsInline
@@ -184,7 +196,7 @@ export default function Features() {
           </div>
         </div>
 
-        {/* CASE DE SUCESSO */}
+        {/* CASE */}
         <div className="mt-16 md:mt-20">
           <div className="text-center max-w-3xl mx-auto mb-8">
 
