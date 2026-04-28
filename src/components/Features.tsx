@@ -123,7 +123,7 @@ export default function Features() {
           </h3>
 
           <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-            Assista aos vídeos e veja situações comuns que impedem empresas de crescer, vender mais e atrair clientes todos os meses.
+            Assista aos vídeos e veja situações comuns que impedem empresas de crescer.
           </p>
         </div>
 
