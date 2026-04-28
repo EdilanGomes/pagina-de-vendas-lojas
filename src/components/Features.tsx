@@ -110,6 +110,8 @@ export default function Features() {
           ))}
         </div>
 
+        <br /> <br />
+
         {/* VÍDEOS */}
         <div className="mt-16 md:mt-20">
 
@@ -195,6 +197,8 @@ export default function Features() {
 
           </div>
         </div>
+
+        <br /> <br />
 
         {/* CASE */}
         <div className="mt-16 md:mt-20">
