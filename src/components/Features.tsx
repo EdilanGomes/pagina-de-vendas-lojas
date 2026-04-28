@@ -119,7 +119,7 @@ export default function Features() {
           </span>
 
           <h3 className="text-2xl md:text-3xl font-bold mt-3 mb-4">
-            Você enfrenta algum desses problemas no seu negócio?
+            Você enfrenta algum desses <br /> problemas no seu negócio?
           </h3>
 
           <p className="text-gray-300 text-sm md:text-base leading-relaxed">
