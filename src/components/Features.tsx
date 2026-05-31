@@ -110,7 +110,6 @@ export default function Features() {
           ))}
         </div>
 
-
         {/* CASE */}
         <div className="mt-16 md:mt-20">
           <div className="text-center max-w-3xl mx-auto mb-8">
