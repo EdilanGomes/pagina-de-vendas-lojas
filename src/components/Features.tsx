@@ -1,19 +1,14 @@
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import Title from './Title';
 import { motion } from 'framer-motion';
 import {
   Megaphone,
   ShoppingCart,
-  Instagram,
-  ChevronLeft,
-  ChevronRight,
-  Play
+  Instagram
 } from "lucide-react";
 
 export default function Features() {
   const refs = useRef<(HTMLDivElement | null)[]>([]);
-  const sliderRef = useRef<HTMLDivElement | null>(null);
-  const [playingIndex, setPlayingIndex] = useState<number | null>(null);
 
   const features = [
     {
@@ -32,27 +27,6 @@ export default function Features() {
       desc: "Conteúdo estratégico para fortalecer sua marca, gerar confiança e aumentar demanda."
     }
   ];
-
-  const videos = [
-    "/videosite1.mp4",
-    "/videosite2.mp4"
-  ];
-
-  function scrollLeft() {
-    sliderRef.current?.scrollBy({
-      left: -340,
-      behavior: "smooth"
-    });
-  }
-
-  function scrollRight() {
-    sliderRef.current?.scrollBy({
-      left: 340,
-      behavior: "smooth"
-    });
-  }
-
-  const fewVideos = videos.length <= 2;
 
   return (
     <section id="features" className="py-20 2xl:py-32">
